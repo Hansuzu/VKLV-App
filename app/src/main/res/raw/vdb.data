@@ -1,0 +1,853 @@
+1;https://virsikirja.fi/virsi-1-hoosianna/;Hoosianna!;0;167
+2;https://virsikirja.fi/virsi-2-avaja-porttis-ovesi/;Avaja porttis, ovesi;168;1020
+3;https://virsikirja.fi/virsi-3-hoosianna-huudetaan/;Hoosianna! huudetaan;1021;1717
+4;https://virsikirja.fi/virsi-4-iloitse-morsian/;Iloitse morsian;1718;2647
+5;https://virsikirja.fi/virsi-5-te-laaksot-notkot-nouskaa/;Te laaksot, notkot, nouskaa;2648;3488
+6;https://virsikirja.fi/virsi-6-kay-kansa-herraasi-vastaan/;Käy, kansa, Herraasi vastaan;3489;4385
+7;https://virsikirja.fi/virsi-7-valmistu-herran-kansa/;Valmistu, Herran kansa;4386;4940
+8;https://virsikirja.fi/virsi-8-nyt-tahdon-kayda-vastaan/;Nyt tahdon käydä vastaan;4941;5891
+9;https://virsikirja.fi/virsi-9-kristus-tulee-kuningas/;Kristus tulee, kuningas;5892;6463
+10;https://virsikirja.fi/virsi-10-iloitse-kaikki-kansa/;Iloitse, kaikki kansa;6464;7167
+11;https://virsikirja.fi/virsi-11-sinua-kristus-odottaa/;Sinua, Kristus, odottaa;7168;7730
+12;https://virsikirja.fi/virsi-12-mies-tanne-saapui/;Mies tänne saapui (vain äänite);7731;8289
+13;https://virsikirja.fi/virsi-13-nyt-sytytamme-kynttilan/;Nyt sytytämme kynttilän;8290;8594
+14;https://virsikirja.fi/virsi-14-syvassa-yossa-viesti-kiirii/;Syvässä yössä viesti kiirii;8595;9136
+15;https://virsikirja.fi/virsi-15-tiella-ken-vaeltaa/;Tiellä ken vaeltaa;9137;9723
+16;https://virsikirja.fi/virsi-16-jeesus-kristus-meille-nyt/;Jeesus Kristus meille nyt;9724;10227
+17;https://virsikirja.fi/virsi-17-ilon-paiva-verraton/;Ilon päivä verraton;10228;10901
+18;https://virsikirja.fi/virsi-18-nyt-ilovirtta-veisaten/;Nyt ilovirttä veisaten;10902;11491
+19;https://virsikirja.fi/virsi-19-syntyi-tanne-jumala/;Syntyi tänne Jumala;11492;12395
+20;https://virsikirja.fi/virsi-20-kaikki-kansat-riemuitkaa/;Kaikki kansat riemuitkaa;12396;13579
+21;https://virsikirja.fi/virsi-21-enkeli-taivaan-lausui-nain/;Enkeli taivaan lausui näin;13580;14428
+22;https://virsikirja.fi/virsi-22-sinua-jeesus-kiitamme/;Sinua, Jeesus, kiitämme;14429;15061
+23;https://virsikirja.fi/virsi-23-on-ruusu-iisain-juuren/;On ruusu Iisain juuren;15062;15547
+24;https://virsikirja.fi/virsi-24-kas-yolla-paimenille/;Kas, yöllä paimenille;15548;16325
+25;https://virsikirja.fi/virsi-25-nyt-seimellesi-seisahdan/;Nyt seimellesi seisahdan;16326;17279
+26;https://virsikirja.fi/virsi-26-oi-armon-lahde-autuas/;Oi armon lähde autuas;17280;17923
+27;https://virsikirja.fi/virsi-27-juhlimaan-tulkaa/;Juhlimaan tulkaa;17924;18526
+28a;https://virsikirja.fi/virsi-28a-valo-syttyi-jeesus-syntyi/;Valo syttyi, Jeesus syntyi;18527;19257
+28b;https://virsikirja.fi/virsi-28b-valo-syttyi-jeesus-syntyi/;Valo syttyi, Jeesus syntyi;19258;19988
+29;https://virsikirja.fi/virsi-29-synkka-yo-maan-peitti-aivan/;Synkkä yö maan peitti aivan;19989;20670
+30;https://virsikirja.fi/virsi-30-maa-on-niin-kaunis/;Maa on niin kaunis;20671;20994
+31;https://virsikirja.fi/virsi-31-ei-valtaa-kultaa-loistoa/;Ei valtaa, kultaa, loistoa;20995;21465
+32;https://virsikirja.fi/virsi-32-me-lapset-pienet-riennamme/;Me lapset pienet riennämme (vain äänite);21466;21489
+33;https://virsikirja.fi/virsi-33-kun-kansa-yossa-vaeltaa/;Kun kansa yössä vaeltaa;21490;21867
+34;https://virsikirja.fi/virsi-34-ylitse-juudean-laidunten/;Ylitse Juudean laidunten;21868;22410
+35;https://virsikirja.fi/virsi-35-joulu-riemukas/;Joulu riemukas;22411;22851
+36;https://virsikirja.fi/virsi-36-jo-vanha-vuosi-mennyt-on/;Jo vanha vuosi mennyt on;22852;23423
+37;https://virsikirja.fi/virsi-37-taas-on-yksi-vuosi-mennyt/;Taas on yksi vuosi mennyt;23424;24287
+38;https://virsikirja.fi/virsi-38-oi-kuule-herra-huutomme/;Oi kuule, Herra, huutomme;24288;24743
+39;https://virsikirja.fi/virsi-39-oi-jeesus-hyvyyttasi/;Oi Jeesus, hyvyyttäsi;24744;25403
+40;https://virsikirja.fi/virsi-40-oi-nimi-kaikkein-suloisin/;Oi nimi kaikkein suloisin;25404;25956
+41;https://virsikirja.fi/virsi-41-jeesus-nimi-verraton/;Jeesus, nimi verraton;25957;26522
+42;https://virsikirja.fi/virsi-42-on-jeesus-nimi-ihanin/;On Jeesus nimi ihanin;26523;26830
+43;https://virsikirja.fi/virsi-43-on-kirkas-aamutahti-nyt/;On kirkas aamutähti nyt;26831;28096
+44;https://virsikirja.fi/virsi-44-jerusalem-katse-nosta/;Jerusalem, katse nosta;28097;28915
+45;https://virsikirja.fi/virsi-45-oi-kristus-valtiaamme/;Oi Kristus, valtiaamme;28916;29726
+46;https://virsikirja.fi/virsi-46-taivaan-kirkas-tahti-kerran/;Taivaan kirkas tähti kerran;29727;30499
+47;https://virsikirja.fi/virsi-47-jeesus-kirkas-tahteni/;Jeesus, kirkas tähteni;30500;31074
+48;https://virsikirja.fi/virsi-48-tanaan-jalleen-herran-kansan/;Tänään jälleen Herran kansan;31075;31879
+49;https://virsikirja.fi/virsi-49-nyt-herra-rauhaan-menna-saan/;Nyt Herra, rauhaan mennä saan;31880;32228
+50;https://virsikirja.fi/virsi-50-jumalaa-kiittaa-sieluni/;Jumalaa kiittää sieluni;32229;32755
+51;https://virsikirja.fi/virsi-51-kaikki-ilon-lahteet-puhkeavat/;Kaikki ilon lähteet puhkeavat;32756;33283
+52;https://virsikirja.fi/virsi-52-maria-herran-aiti/;Maria, Herran äiti;33284;33963
+53;https://virsikirja.fi/virsi-53-nuori-neitsyt-maria/;Nuori neitsyt Maria;33964;34301
+54;https://virsikirja.fi/virsi-54-kaykaamme-nyt-jerusalemiin/;Käykäämme nyt Jerusalemiin;34302;34674
+55;https://virsikirja.fi/virsi-55-jai-taakse-vuori-kirkastuksen/;Jäi taakse vuori kirkastuksen;34675;35475
+56;https://virsikirja.fi/virsi-56-tutkimaan-oi-jeesus-auta/;Tutkimaan, oi Jeesus, auta;35476;36693
+57;https://virsikirja.fi/virsi-57-jeesus-olet-elamani/;Jeesus, olet elämäni;36694;37917
+58;https://virsikirja.fi/virsi-58-kas-karitsata-jumalan/;Kas Karitsata Jumalan!;37918;39296
+59;https://virsikirja.fi/virsi-59-leipaa-pelloilta-maan/;Leipää pelloilta maan;39297;39679
+60;https://virsikirja.fi/virsi-60-soi-kunnia-ja-kiitos/;Soi kunnia ja kiitos;39680;40107
+61;https://virsikirja.fi/virsi-61-ken-tahtoo-kayda-herran-askelissa/;Ken tahtoo käydä Herran askelissa;40108;40719
+62;https://virsikirja.fi/virsi-62-sinua-jeesus-piinattiin/;Sinua, Jeesus, piinattiin;40720;42411
+63;https://virsikirja.fi/virsi-63-oi-rakkain-jeesukseni/;Oi rakkain Jeesukseni;42412;43236
+64;https://virsikirja.fi/virsi-64-nyt-paasi-verta-vuotaa/;Nyt pääsi verta vuotaa;43237;43675
+65;https://virsikirja.fi/virsi-65-oi-jumalan-karitsa/;Oi Jumalan Karitsa;43676;44048
+66;https://virsikirja.fi/virsi-66-jeesusta-nyt-golgatalle/;Jeesusta nyt Golgatalle;44049;45228
+67;https://virsikirja.fi/virsi-67-tulkaa-kaikki-katsokaatte/;Tulkaa kaikki, katsokaatte;45229;45808
+68;https://virsikirja.fi/virsi-68-ristinpuussa-golgatalla/;Ristinpuussa Golgatalla;45809;46612
+69;https://virsikirja.fi/virsi-69-voi-tuskassaan/;Voi, tuskassaan;46613;47186
+70;https://virsikirja.fi/virsi-70-kun-katson-ristin-ihmetta/;Kun katson ristin ihmettä;47187;47626
+71;https://virsikirja.fi/virsi-71-laupias-jeesus-minka-rikkomuksen/;Laupias Jeesus, minkä rikkomuksen;47627;48552
+72a;https://virsikirja.fi/virsi-72a-nyt-liehuu-viiri-kuninkaan/;Nyt liehuu viiri Kuninkaan;48553;49096
+72b;https://virsikirja.fi/virsi-72b-nyt-liehuu-viiri-kuninkaan/;Nyt liehuu viiri Kuninkaan;49097;49640
+73;https://virsikirja.fi/virsi-73-sinulle-oi-vapahtaja/;Sinulle, oi Vapahtaja;49641;50355
+74;https://virsikirja.fi/virsi-74-jeesus-sinun-vaivas-kovat/;Jeesus, sinun vaivas kovat;50356;51272
+75;https://virsikirja.fi/virsi-75-jeesus-turva-ainoa/;Jeesus, turva ainoa;51273;52060
+76;https://virsikirja.fi/virsi-76-puoleesi-vapahtaja/;Puoleesi, Vapahtaja;52061;52690
+77;https://virsikirja.fi/virsi-77-kay-yrttitarhasta-polku/;Käy yrttitarhasta polku;52691;53282
+78;https://virsikirja.fi/virsi-78-vieraalla-maalla-kaukana/;Vieraalla maalla kaukana;53283;53588
+79;https://virsikirja.fi/virsi-79-oi-jeesus-lahde-autuuden/;Oi Jeesus, lähde autuuden;53589;54754
+80;https://virsikirja.fi/virsi-80-rakkauden-armon-lahde/;Rakkauden, armon lähde;54755;55501
+81;https://virsikirja.fi/virsi-81-on-taisto-tauonnut-golgatalla/;On taisto tauonnut Golgatalla;55502;56092
+82;https://virsikirja.fi/virsi-82-on-ehtoo-jo/;On ehtoo jo;56093;56519
+83;https://virsikirja.fi/virsi-83-on-tyosi-jeesus-paatetty/;On työsi, Jeesus, päätetty;56520;56964
+84;https://virsikirja.fi/virsi-84-nyt-se-suuri-paiva-koitti/;Nyt se suuri päivä koitti;56965;57682
+85;https://virsikirja.fi/virsi-85-nyt-ylistamme-jumalaa/;Nyt ylistämme Jumalaa;57683;58213
+86;https://virsikirja.fi/virsi-86-maailman-aariin-kaikukoon/;Maailman ääriin kaikukoon;58214;59220
+87;https://virsikirja.fi/virsi-87-kiitosta-nyt-uhratkaamme/;Kiitosta nyt uhratkaamme;59221;60051
+88;https://virsikirja.fi/virsi-88-lensi-maahan-enkeli/;Lensi maahan enkeli;60052;60496
+89a;https://virsikirja.fi/virsi-89a-nyt-heraa-yosta-henkeni/;Nyt herää yöstä, henkeni;60497;61613
+89b;https://virsikirja.fi/virsi-89b-nyt-heraa-yosta-henkeni/;Nyt herää yöstä, henkeni;61614;62730
+90;https://virsikirja.fi/virsi-90-kristus-nousi-kuolleista/;Kristus nousi kuolleista;62731;62868
+91;https://virsikirja.fi/virsi-91-paasiaisen-kirkas-aamu-koittaa/;Pääsiäisen kirkas aamu koittaa;62869;63376
+92;https://virsikirja.fi/virsi-92-on-kristus-noussut-kuolleista/;On Kristus noussut kuolleista;63377;63950
+93;https://virsikirja.fi/virsi-93-nouse-mieli-kaanny-kieli/;Nouse mieli, käänny kieli;63951;64891
+94;https://virsikirja.fi/virsi-94-nyt-kansat-kaikki-laulakaamme/;Nyt kansat kaikki laulakaamme;64892;65334
+95;https://virsikirja.fi/virsi-95-te-kristityt-nyt-juhlikaa/;Te kristityt, nyt juhlikaa;65335;66014
+96;https://virsikirja.fi/virsi-96-kuoleman-kahleet-murtanut/;Kuoleman kahleet murtanut;66015;67026
+97;https://virsikirja.fi/virsi-97-herralle-jeesukselle/;Herralle Jeesukselle;67027;67760
+98;https://virsikirja.fi/virsi-98-jo-nousit-haudastasi/;Jo nousit haudastasi;67761;68428
+99;https://virsikirja.fi/virsi-99-jeesus-elaa-herrani/;Jeesus elää, Herrani!;68429;69070
+100;https://virsikirja.fi/virsi-100-sait-jeesus-tayden-voiton/;Sait, Jeesus, täyden voiton;69071;69568
+101;https://virsikirja.fi/virsi-101-oi-nouse-aurinkomme/;Oi nouse, aurinkomme;69569;70243
+102a;https://virsikirja.fi/virsi-102a-murhemielin-kyyneloiden/;Murhemielin, kyynelöiden;70244;71140
+102b;https://virsikirja.fi/virsi-102b-murhemielin-kyyneloiden/;Murhemielin, kyynelöiden;71141;72037
+103;https://virsikirja.fi/virsi-103-ah-saavu-jeesus-keskellemme/;Ah saavu, Jeesus, keskellemme;72038;72931
+104;https://virsikirja.fi/virsi-104-pilvimuurista-valo-valahtaa/;Pilvimuurista valo välähtää;72932;73459
+105;https://virsikirja.fi/virsi-105-aurinkomme-ylosnousi/;Aurinkomme ylösnousi;73460;74078
+106;https://virsikirja.fi/virsi-106-terve-juhla-kristuksen/;Terve, juhla Kristuksen;74079;74536
+107;https://virsikirja.fi/virsi-107-oi-jeesus-yksin-laupeus/;Oi Jeesus, yksin laupeus;74537;75124
+108;https://virsikirja.fi/virsi-108-oi-suuri-voitonruhtinas/;Oi suuri Voitonruhtinas;75125;76026
+109;https://virsikirja.fi/virsi-109-kun-nousit-isan-kunniaan/;Kun nousit Isän kunniaan;76027;76628
+110;https://virsikirja.fi/virsi-110-polvistu-eteen-herrasi/;Polvistu eteen Herrasi;76629;77335
+111;https://virsikirja.fi/virsi-111-oi-pyha-henki-herramme/;Oi Pyhä Henki, Herramme;77336;77905
+112;https://virsikirja.fi/virsi-112-tule-pyha-henki-luoksemme/;Tule, Pyhä Henki, luoksemme;77906;78110
+113;https://virsikirja.fi/virsi-113-oi-pyha-henki-vahvista/;Oi Pyhä Henki, vahvista;78111;78514
+114;https://virsikirja.fi/virsi-114-oi-pyha-henki-jumala/;Oi Pyhä Henki, Jumala;78515;79068
+115;https://virsikirja.fi/virsi-115-oi-luoja-lohduttajamme/;Oi Luoja, lohduttajamme;79069;79877
+116;https://virsikirja.fi/virsi-116-oi-pyha-henki-majasi/;Oi Pyhä Henki, majasi;79878;80968
+117;https://virsikirja.fi/virsi-117-pyha-henki-lohduttaja/;Pyhä Henki, lohduttaja;80969;82147
+118;https://virsikirja.fi/virsi-118-jumala-anna-henkesi/;Jumala, anna Henkesi;82148;83098
+119;https://virsikirja.fi/virsi-119-henki-armon-tuoja/;Henki, armon tuoja;83099;84113
+120;https://virsikirja.fi/virsi-120-kay-pyha-henki-luokseni/;Käy, Pyhä Henki, luokseni;84114;84925
+121;https://virsikirja.fi/virsi-121-mua-pyha-henki-pyhita/;Mua, Pyhä Henki, pyhitä;84926;85667
+122;https://virsikirja.fi/virsi-122-luojansa-sanasta/;Luojansa sanasta;85668;86076
+123;https://virsikirja.fi/virsi-123-oi-jeesus-kristus-herramme/;Oi, Jeesus Kristus, Herramme;86077;86844
+124;https://virsikirja.fi/virsi-124-kay-koyhaan-sydameeni/;Käy köyhään sydämeeni;86845;87294
+125;https://virsikirja.fi/virsi-125-kosketa-minua-henki/;Kosketa minua, Henki;87295;87605
+126;https://virsikirja.fi/virsi-126-me-kiitamme-sinua/;Me kiitämme sinua;87606;87996
+127;https://virsikirja.fi/virsi-127-luoja-kolmiyhteinen/;Luoja kolmiyhteinen;87997;88259
+128;https://virsikirja.fi/virsi-128-ainoan-herran-jumalan/;Ainoan Herran Jumalan;88260;88786
+129;https://virsikirja.fi/virsi-129-jumala-kolmiyhteinen/;Jumala kolmiyhteinen;88787;89400
+130;https://virsikirja.fi/virsi-130-jumala-isa-taivaassa/;Jumala, Isä taivaassa;89401;89661
+131;https://virsikirja.fi/virsi-131-oi-isa-kaikkivaltias/;Oi Isä kaikkivaltias;89662;90150
+132;https://virsikirja.fi/virsi-132-oi-rakas-isa-luojamme/;Oi rakas Isä, luojamme;90151;90659
+133;https://virsikirja.fi/virsi-133-halleluja-nyt-ylistys/;Halleluja! Nyt ylistys;90660;91180
+134;https://virsikirja.fi/virsi-134-pyha-pyha-pyha/;Pyhä, pyhä, pyhä!;91181;91630
+135;https://virsikirja.fi/virsi-135-jumala-loi-auringon-kuun/;Jumala loi auringon, kuun;91631;92057
+136;https://virsikirja.fi/virsi-136-sinua-enkeleista/;Sinua enkeleistä;92058;92595
+137;https://virsikirja.fi/virsi-137-armollaan-herra-ennattaa/;Armollaan Herra ennättää;92596;93010
+138;https://virsikirja.fi/virsi-138-herra-valtaistuimeltaan/;Herra valtaistuimeltaan;93011;93792
+139;https://virsikirja.fi/virsi-139-oi-jeesus-lasten-ystava/;Oi Jeesus, lasten ystävä;93793;94195
+140;https://virsikirja.fi/virsi-140-autuaita-kaikki-hengessansa-koyhat/;Autuaita kaikki hengessänsä köyhät;94196;95434
+141;https://virsikirja.fi/virsi-141-ne-jotka-taalla-uskossa/;Ne jotka täällä uskossa;95435;96061
+142;https://virsikirja.fi/virsi-142-oi-jeesus-kiitos-nimellesi-sun/;Oi Jeesus, kiitos nimellesi sun (vain äänite);96062;96088
+143;https://virsikirja.fi/virsi-143-oi-paiva-suuri-autuas/;Oi päivä suuri, autuas;96089;96526
+144;https://virsikirja.fi/virsi-144-kuoleman-jalkeen-parempaa/;Kuoleman jälkeen parempaa;96527;97965
+145;https://virsikirja.fi/virsi-145-taivaassa-johon-jumala/;Taivaassa, johon Jumala;97966;98859
+146;https://virsikirja.fi/virsi-146-rauhan-saivat-pyhat-herran/;Rauhan saivat pyhät Herran;98860;99285
+147;https://virsikirja.fi/virsi-147-sukupolvet-ennen-meita/;Sukupolvet ennen meitä;99286;99786
+148;https://virsikirja.fi/virsi-148-heraa-herran-seurakunta/;Herää, Herran seurakunta;99787;100386
+149;https://virsikirja.fi/virsi-149-tulkaa-kaikki-kotiin-tulkaa/;Tulkaa kaikki kotiin, tulkaa;100387;101023
+150;https://virsikirja.fi/virsi-150-oi-heratkaa-te-hitaat-sielut-juuri/;Oi herätkää, te hitaat sielut, juuri;101024;101944
+151;https://virsikirja.fi/virsi-151-nyt-yhdessa-jo-lahtekaa/;Nyt yhdessä jo lähtekää;101945;102851
+152;https://virsikirja.fi/virsi-152-on-kristuksen-tulemus-arvaamaton/;On Kristuksen tulemus arvaamaton;102852;103481
+153;https://virsikirja.fi/virsi-153-heraa-nouse-nukkumasta/;Herää, nouse nukkumasta;103482;103997
+154;https://virsikirja.fi/virsi-154-jo-nouskaa-kristityt-valvokaa/;Jo nouskaa, kristityt, valvokaa;103998;104902
+155;https://virsikirja.fi/virsi-155-jo-herran-paiva-lasna-on/;Jo Herran päivä läsnä on;104903;105822
+156;https://virsikirja.fi/virsi-156-hautaan-kaikki-kaatuu-kerran/;Hautaan kaikki kaatuu kerran;105823;106602
+157;https://virsikirja.fi/virsi-157-maailma-taynna-turhuuttaan/;Maailma täynnä turhuuttaan;106603;107353
+158;https://virsikirja.fi/virsi-158-vihan-paiva-kauhistava/;Vihan päivä kauhistava!;107354;108278
+159;https://virsikirja.fi/virsi-159-ken-jumalan-tuomion-torjua-voi/;Ken Jumalan tuomion torjua voi;108279;109042
+160;https://virsikirja.fi/virsi-160-kun-luova-tahto-kaikkeuden-herran/;Kun luova tahto kaikkeuden Herran;109043;109651
+161;https://virsikirja.fi/virsi-161-vain-hetki-herra-kaataa/;Vain hetki, Herra kaataa;109652;110009
+162;https://virsikirja.fi/virsi-162-kristus-kuningas-kaikkivaltias/;Kristus-kuningas, kaikkivaltias;110010;110648
+163;https://virsikirja.fi/virsi-163-heratkaa-niin-huuto-kaikaa/;Herätkää! niin huuto kaikaa;110649;111074
+164;https://virsikirja.fi/virsi-164-on-kristus-kirkon-herra/;On Kristus kirkon Herra;111075;111767
+165;https://virsikirja.fi/virsi-165-on-suuri-ihme-seurakunta-herran/;On suuri ihme seurakunta Herran!;111768;112262
+166;https://virsikirja.fi/virsi-166-on-hengissa-maa/;On hengissä maa;112263;113118
+167;https://virsikirja.fi/virsi-167-uskomme-jumalaan/;Uskomme Jumalaan;113119;114017
+168;https://virsikirja.fi/virsi-168-suo-herra-sama-henki-meille/;Suo, Herra, sama Henki meille;114018;115039
+169;https://virsikirja.fi/virsi-169-muista-herra-kristus-pyha/;Muista, Herra Kristus pyhä;115040;115630
+170;https://virsikirja.fi/virsi-170-jumala-ompi-linnamme/;Jumala ompi linnamme;115631;116277
+171;https://virsikirja.fi/virsi-171-mina-uskon-isaan-herraan-jumalaamme/;Minä uskon Isään, Herraan Jumalaamme;116278;116901
+172;https://virsikirja.fi/virsi-172-nyt-kansat-kaikki-laulakaa/;Nyt kansat kaikki laulakaa;116902;117320
+173;https://virsikirja.fi/virsi-173-ilmoita-herramme-voimasi-meille/;Ilmoita, Herramme, voimasi meille;117321;118283
+174;https://virsikirja.fi/virsi-174-viela-herra-kutsut-meita/;Vielä, Herra, kutsut meitä;118284;118887
+175;https://virsikirja.fi/virsi-175-seurakunta-koolla-on/;Seurakunta koolla on;118888;119579
+176;https://virsikirja.fi/virsi-176-pois-pelko-herran-kansa/;Pois pelko, Herran kansa!;119580;120151
+177;https://virsikirja.fi/virsi-177-jeesus-on-paimen-han-kanssamme-kay/;Jeesus on paimen, hän kanssamme käy;120152;120674
+178;https://virsikirja.fi/virsi-178-myos-isamme-uskoivat-ennen/;Myös isämme uskoivat ennen;120675;121661
+179;https://virsikirja.fi/virsi-179-siion-apus-ainoastaan/;Siion, apus ainoastaan;121662;122793
+180;https://virsikirja.fi/virsi-180-jeesus-sanoi-omillensa/;Jeesus sanoi omillensa;122794;123339
+181;https://virsikirja.fi/virsi-181-jumala-taysi-turva-on/;Jumala täysi turva on;123340;124114
+182;https://virsikirja.fi/virsi-182-herramme-kristus-seurakuntaas-puolla/;Herramme Kristus, seurakuntaas puolla;124115;124432
+183;https://virsikirja.fi/virsi-183-on-meilla-aarre-verraton/;On meillä aarre verraton;124433;125535
+184;https://virsikirja.fi/virsi-184-ma-kauniin-tiedan-kukkasen/;Mä kauniin tiedän kukkasen;125536;126166
+185;https://virsikirja.fi/virsi-185-herra-annat-sanassasi/;Herra, annat sanassasi;126167;126907
+186;https://virsikirja.fi/virsi-186-nyt-kuinka-kiittaisimme/;Nyt kuinka kiittäisimme;126908;127723
+187;https://virsikirja.fi/virsi-187-armahda-herra-jumala/;Armahda, Herra Jumala;127724;128588
+188;https://virsikirja.fi/virsi-188-on-herra-pyha-sanasi/;On, Herra, pyhä sanasi;128589;129668
+189;https://virsikirja.fi/virsi-189-ah-jeesus-ole-kanssamme/;Ah Jeesus, ole kanssamme;129669;130332
+190;https://virsikirja.fi/virsi-190-sun-sanas-suojaa-jumala/;Sun sanas suojaa, Jumala;130333;130758
+191;https://virsikirja.fi/virsi-191-on-meille-herra-jumala/;On meille Herra Jumala;130759;131709
+192;https://virsikirja.fi/virsi-192-kylvaja-lahti-kylvamaan/;Kylväjä lähti kylvämään;131710;132603
+193;https://virsikirja.fi/virsi-193-autuuden-ja-armon-sana/;Autuuden ja armon sana;132604;133294
+194;https://virsikirja.fi/virsi-194-jumala-on-lasna/;Jumala on läsnä;133295;134145
+195;https://virsikirja.fi/virsi-195-on-riemu-kun-saan-tulla/;On riemu, kun saan tulla;134146;134496
+196;https://virsikirja.fi/virsi-196-on-herran-temppelissa/;On Herran temppelissä;134497;135054
+197;https://virsikirja.fi/virsi-197-ajasta-aikaan-varjellut/;Ajasta aikaan varjellut;135055;135778
+198;https://virsikirja.fi/virsi-198-oi-pyha-herran-temppeli/;Oi pyhä Herran temppeli;135779;136385
+199;https://virsikirja.fi/virsi-199-nyt-kiittakaa-on-herra-hyva/;Nyt kiittäkää! On Herra hyvä;136386;137086
+200;https://virsikirja.fi/virsi-200-oi-kuinka-ihana/;Oi, kuinka ihana;137087;138197
+201a;https://virsikirja.fi/virsi-201a-tanne-jeesus-tulimme/;Tänne, Jeesus, tulimme;138198;138556
+201b;https://virsikirja.fi/virsi-201b-tanne-jeesus-tulimme/;Tänne, Jeesus, tulimme;138557;138915
+202;https://virsikirja.fi/virsi-202-jeesus-sana-elaman/;Jeesus, sana elämän;138916;139740
+203;https://virsikirja.fi/virsi-203-kay-sydameni-temppeliin/;Käy sydämeni temppeliin;139741;141033
+204;https://virsikirja.fi/virsi-204-herra-jeesus-hengellasi/;Herra Jeesus, Hengelläsi;141034;141487
+205;https://virsikirja.fi/virsi-205-nimeesi-kokoon-tulleina/;Nimeesi kokoon tulleina;141488;142251
+206;https://virsikirja.fi/virsi-206-taas-kasvojesi-eteen/;Taas kasvojesi eteen;142252;142669
+207;https://virsikirja.fi/virsi-207-arkana-nyt-olen-tullut/;Arkana nyt olen tullut;142670;143293
+208;https://virsikirja.fi/virsi-208-oi-taivaallinen-isamme/;Oi taivaallinen Isämme!;143294;144346
+209;https://virsikirja.fi/virsi-209-herra-siunaa-auta-meita/;Herra, siunaa, auta meitä;144347;144511
+210;https://virsikirja.fi/virsi-210-herramme-jeesuksen-kristuksen-armo/;Herramme Jeesuksen Kristuksen armo;144512;144646
+211;https://virsikirja.fi/virsi-211-oi-herra-kiitos-sanastasi/;Oi Herra, kiitos sanastasi;144647;145051
+212;https://virsikirja.fi/virsi-212-kiitos-karitsa-kuollut/;Kiitos, Karitsa kuollut;145052;145600
+213a;https://virsikirja.fi/virsi-213a-taas-kutsut-meidat-temppelista-arkeen/;Taas kutsut meidät temppelistä arkeen;145601;146025
+213b;https://virsikirja.fi/virsi-213b-taas-kutsut-meidat-temppelista-arkeen/;Taas kutsut meidät temppelistä arkeen;146026;146450
+214a;https://virsikirja.fi/virsi-214a-kun-kasteen-jordanvirrassa/;Kun kasteen Jordanvirrassa;146451;146933
+214b;https://virsikirja.fi/virsi-214b-kun-kasteen-jordanvirrassa/;Kun kasteen Jordanvirrassa;146934;147416
+215;https://virsikirja.fi/virsi-215-oi-armon-merta-ihmeellista/;Oi armon merta ihmeellistä;147417;148221
+216;https://virsikirja.fi/virsi-216-pyha-isa-jumala/;Pyhä Isä Jumala;148222;148554
+217;https://virsikirja.fi/virsi-217-taynna-kiitosta-ja-hammastysta/;Täynnä kiitosta ja hämmästystä;148555;149154
+218;https://virsikirja.fi/virsi-218-tuomme-luokse-jeesuksen/;Tuomme luokse Jeesuksen;149155;149553
+219;https://virsikirja.fi/virsi-219-kasteen-kirkas-vesi-on/;Kasteen kirkas vesi on;149554;149856
+220;https://virsikirja.fi/virsi-220-oi-jeesus-viimeisena-yona/;Oi Jeesus, viimeisenä yönä;149857;151051
+221;https://virsikirja.fi/virsi-221-kiittaen-nyt-ylistamme/;Kiittäen nyt ylistämme;151052;152206
+222a;https://virsikirja.fi/virsi-222a-jeesus-kristus-elamamme/;Jeesus Kristus, elämämme;152207;152925
+222b;https://virsikirja.fi/virsi-222b-jeesus-kristus-elamamme/;Jeesus Kristus, elämämme;152926;153644
+223;https://virsikirja.fi/virsi-223-oi-jeesus-armas-ystava/;Oi Jeesus, armas ystävä;153645;154446
+224;https://virsikirja.fi/virsi-224-oi-jeesus-leipa-elaman/;Oi Jeesus, leipä elämän;154447;155468
+225;https://virsikirja.fi/virsi-225-jeesus-luona-armopoydan/;Jeesus, luona armopöydän;155469;156231
+226;https://virsikirja.fi/virsi-226-on-autuas-ken-jeesusta/;On autuas, ken Jeesusta;156232;157521
+227;https://virsikirja.fi/virsi-227-ylistys-olkoon-aina-isallemme/;Ylistys olkoon aina Isällemme;157522;158158
+228a;https://virsikirja.fi/virsi-228a-vaiti-kaikki-palvokaamme/;Vaiti kaikki palvokaamme;158159;158657
+228b;https://virsikirja.fi/virsi-228b-vaiti-kaikki-palvokaamme/;Vaiti kaikki palvokaamme;158658;159156
+229;https://virsikirja.fi/virsi-229-saa-ehtoollinen-jeesuksen/;Saa ehtoollinen Jeesuksen;159157;159761
+230;https://virsikirja.fi/virsi-230-lahjoistas-jeesus-pyhista/;Lahjoistas, Jeesus, pyhistä;159762;160172
+231;https://virsikirja.fi/virsi-231-maan-sato-elonaikaan/;Maan sato elonaikaan;160173;160461
+232;https://virsikirja.fi/virsi-232-taas-kutsut-meidat-poytaasi/;Taas kutsut meidät pöytääsi;160462;160951
+233;https://virsikirja.fi/virsi-233-oi-isa-poika-henki-herran/;Oi Isä, Poika, Henki Herran;160952;161595
+234;https://virsikirja.fi/virsi-234-jeesus-saavun-kutsustasi/;Jeesus, saavun kutsustasi;161596;162199
+235;https://virsikirja.fi/virsi-235-armon-lahde-jeesuksemme/;Armon lähde, Jeesuksemme;162200;162797
+236;https://virsikirja.fi/virsi-236-katesi-laske-herramme/;Kätesi laske, Herramme;162798;163302
+237;https://virsikirja.fi/virsi-237-jo-nuoruuteni-aikana/;Jo nuoruuteni aikana;163303;163912
+238;https://virsikirja.fi/virsi-238-avioliiton-jumala/;Avioliiton Jumala;163913;164750
+239;https://virsikirja.fi/virsi-239-loi-herra-kuvaksensa/;Loi Herra kuvaksensa;164751;165047
+240;https://virsikirja.fi/virsi-240-herra-kaiken-onnen-tuoja/;Herra, kaiken onnen tuoja;165048;165847
+241a;https://virsikirja.fi/virsi-241a-herra-rakkaastani/;Herra, rakkaastani;165848;166139
+241b;https://virsikirja.fi/virsi-241b-herra-rakkaastani/;Herra, rakkaastani;166140;166431
+242;https://virsikirja.fi/virsi-242-jo-vaietkoon-vaikerrus-itku/;Jo vaietkoon vaikerrus, itku;166432;167260
+243;https://virsikirja.fi/virsi-243-tiet-kaikki-kerran-kulkee/;Tiet kaikki kerran kulkee;167261;167843
+244;https://virsikirja.fi/virsi-244-te-murheelliset/;Te murheelliset;167844;168072
+245;https://virsikirja.fi/virsi-245-nyt-sydan-luopuu-kalleimmastaan/;Nyt sydän luopuu kalleimmastaan;168073;168488
+246;https://virsikirja.fi/virsi-246-murheeni-syvyydesta/;Murheeni syvyydestä;168489;169158
+247;https://virsikirja.fi/virsi-247-ah-autuas-ken-taivaaseen/;Ah autuas, ken taivaaseen;169159;169727
+248;https://virsikirja.fi/virsi-248-jeesus-joka-lempeana/;Jeesus, joka lempeänä;169728;170641
+249a;https://virsikirja.fi/virsi-249a-pois-kirkas-suvi-kulkee/;Pois kirkas suvi kulkee;170642;171469
+249b;https://virsikirja.fi/virsi-249b-pois-kirkas-suvi-kulkee/;Pois kirkas suvi kulkee;171470;172297
+250;https://virsikirja.fi/virsi-250-kirkasta-oi-jeesus-meille/;Kirkasta, oi Jeesus, meille;172298;173007
+251;https://virsikirja.fi/virsi-251-jumalan-valtaistuin-on/;Jumalan valtaistuin on;173008;173554
+252;https://virsikirja.fi/virsi-252-oi-paimen-lammasten/;Oi Paimen lammasten;173555;174719
+253;https://virsikirja.fi/virsi-253-herra-joka-vartioitset/;Herra, joka vartioitset;174720;175176
+254;https://virsikirja.fi/virsi-254-sun-tyohos-jeesus-kutsun-sain/;Sun työhös, Jeesus, kutsun sain;175177;175426
+255;https://virsikirja.fi/virsi-255-taivasten-taivaisiin/;Taivasten taivaisiin;175427;175948
+256;https://virsikirja.fi/virsi-256-kristus-jumalan-poika/;Kristus, Jumalan Poika;175949;176542
+257;https://virsikirja.fi/virsi-257-oi-jeesus-synnyit-maailmaan/;Oi Jeesus, synnyit maailmaan;176543;177237
+258;https://virsikirja.fi/virsi-258-kiitetty-olkoon-jumala/;Kiitetty olkoon Jumala;177238;177760
+259;https://virsikirja.fi/virsi-259-kiitetty-herra-joka-kansallensa/;Kiitetty Herra, joka kansallensa;177761;178358
+260;https://virsikirja.fi/virsi-260-niin-suuresti-on-jumala/;Niin suuresti on Jumala;178359;179185
+261;https://virsikirja.fi/virsi-261-oi-iloitkaa-te-kristityt/;Oi iloitkaa, te kristityt;179186;180733
+262;https://virsikirja.fi/virsi-262-on-hyvyydessaan-jumala/;On hyvyydessään Jumala;180734;181951
+263;https://virsikirja.fi/virsi-263-vuorella-kristus-kirkastui/;Vuorella Kristus kirkastui;181952;182805
+264;https://virsikirja.fi/virsi-264-on-turmeltunut-ihminen/;On turmeltunut ihminen;182806;183707
+265;https://virsikirja.fi/virsi-265-jeesus-armon-soi/;Jeesus armon soi;183708;184142
+266;https://virsikirja.fi/virsi-266-oi-jeesus-kristus-herramme/;Oi Jeesus Kristus, Herramme;184143;184470
+267;https://virsikirja.fi/virsi-267-sua-syvyydesta-avuksi/;Sua syvyydestä avuksi;184471;185136
+268;https://virsikirja.fi/virsi-268-hadassa-huudan-herraa/;Hädässä huudan Herraa;185137;185681
+269;https://virsikirja.fi/virsi-269-ala-sure-sielu-parka/;Älä sure, sielu parka;185682;187068
+270;https://virsikirja.fi/virsi-270-enko-herraa-jumalaani/;Enkö Herraa Jumalaani;187069;189399
+271;https://virsikirja.fi/virsi-271-nyt-kiitan-riemuiten/;Nyt kiitän riemuiten;189400;189921
+272;https://virsikirja.fi/virsi-272-oi-jeesus-auttaja/;Oi Jeesus, auttaja;189922;190457
+273;https://virsikirja.fi/virsi-273-jeesus-parhain-ystavani/;Jeesus, parhain ystäväni;190458;190930
+274;https://virsikirja.fi/virsi-274-kristuksen-tahden-menkoon-vain/;Kristuksen tähden menköön vain;190931;191419
+275;https://virsikirja.fi/virsi-275-ma-elan-laupeudesta/;Mä elän laupeudesta;191420;191757
+276;https://virsikirja.fi/virsi-276-jeesuksesta-laulan/;Jeesuksesta laulan;191758;192219
+277;https://virsikirja.fi/virsi-277-oi-kristus-taivaan-kuningas/;Oi Kristus, taivaan kuningas;192220;193011
+278;https://virsikirja.fi/virsi-278-oi-armon-lahde-ainoa/;Oi armon lähde ainoa;193012;194087
+279;https://virsikirja.fi/virsi-279-minua-jeesus-auta/;Minua, Jeesus, auta;194088;195047
+280;https://virsikirja.fi/virsi-280-ala-vaadi-jumala/;Älä vaadi, Jumala;195048;195514
+281;https://virsikirja.fi/virsi-281-lienenko-outo-ainoa-maan-paalla/;Lienenkö outo ainoa maan päällä;195515;196392
+282;https://virsikirja.fi/virsi-282-oi-jeesus-korkein-lohdutus/;Oi Jeesus, korkein lohdutus;196393;197460
+283;https://virsikirja.fi/virsi-283-ah-jumala-nyt-tuskassa/;Ah Jumala, nyt tuskassa;197461;198161
+284;https://virsikirja.fi/virsi-284-ah-autuas-ken-armosta/;Ah autuas, ken armosta;198162;198945
+285;https://virsikirja.fi/virsi-285-voi-mihin-raukka-juoksisin/;Voi, mihin raukka juoksisin;198946;199610
+286;https://virsikirja.fi/virsi-286-ah-armon-herra-suloinen/;Ah armon Herra suloinen;199611;200497
+287;https://virsikirja.fi/virsi-287-oi-herra-kuinka-jouduinkaan/;Oi Herra, kuinka jouduinkaan;200498;201326
+288;https://virsikirja.fi/virsi-288-silmaisi-eteen-jeesus/;Silmäisi eteen, Jeesus;201327;201669
+289;https://virsikirja.fi/virsi-289-vain-sina-tunnet-minut-vapahtaja/;Vain sinä tunnet minut, Vapahtaja;201670;202055
+290;https://virsikirja.fi/virsi-290-kun-kristus-kaski-sanansa/;Kun Kristus käski sanansa;202056;202620
+291;https://virsikirja.fi/virsi-291-kun-tunnon-taakan-alla/;Kun tunnon taakan alla;202621;203045
+292;https://virsikirja.fi/virsi-292-oi-kuinka-unhottaisin/;Oi, kuinka unhottaisin;203046;203580
+293;https://virsikirja.fi/virsi-293-en-tahdo-herrastani/;En tahdo Herrastani;203581;204429
+294;https://virsikirja.fi/virsi-294-ihminen-synnissansa-kauan-maannut/;Ihminen, synnissänsä kauan maannut;204430;205337
+295;https://virsikirja.fi/virsi-295-oi-herrani-saan-luoksesi/;Oi Herrani, saan luoksesi;205338;206038
+296;https://virsikirja.fi/virsi-296-sinuhun-jeesus-ainoaan/;Sinuhun, Jeesus, ainoaan;206039;206720
+297;https://virsikirja.fi/virsi-297-mun-hyvaan-herraani/;Mun hyvään Herraani;206721;207541
+298;https://virsikirja.fi/virsi-298-vapahtajani-jeesus-on/;Vapahtajani Jeesus on;207542;208224
+299a;https://virsikirja.fi/virsi-299a-ei-mikaan-niin-voi-virvoittaa/;Ei mikään niin voi virvoittaa;208225;208961
+299b;https://virsikirja.fi/virsi-299b-ei-mikaan-niin-voi-virvoittaa/;Ei mikään niin voi virvoittaa;208962;209698
+300;https://virsikirja.fi/virsi-300-jeesuksen-muisto-ihana/;Jeesuksen muisto ihana;209699;210005
+301a;https://virsikirja.fi/virsi-301a-kirkasta-oi-kristus-meille/;Kirkasta, oi Kristus, meille;210006;210689
+301b;https://virsikirja.fi/virsi-301b-kirkasta-oi-kristus-meille/;Kirkasta, oi Kristus, meille;210690;211373
+302;https://virsikirja.fi/virsi-302-sinua-jeesus-odotan/;Sinua, Jeesus, odotan;211374;211775
+303;https://virsikirja.fi/virsi-303-jeesus-aarteheni/;Jeesus, aarteheni;211776;212760
+304;https://virsikirja.fi/virsi-304-oi-jeesus-kristus-autuuden/;Oi Jeesus Kristus, autuuden;212761;213468
+305;https://virsikirja.fi/virsi-305-jeesus-ruokit-sanallasi/;Jeesus, ruokit sanallasi;213469;214076
+306;https://virsikirja.fi/virsi-306-jeesus-kruunun-kirkkaan-kannat/;Jeesus, kruunun kirkkaan kannat;214077;214864
+307;https://virsikirja.fi/virsi-307-kiitos-olkoon-jumalalle/;Kiitos olkoon Jumalalle;214865;215541
+308;https://virsikirja.fi/virsi-308-ah-jeesus-herrani/;Ah Jeesus, Herrani;215542;216041
+309;https://virsikirja.fi/virsi-309-nyt-viela-etehesi/;Nyt vielä etehesi;216042;216401
+310;https://virsikirja.fi/virsi-310-herra-jeesus-kun-taalla-vain-kanssamme-on/;Herra Jeesus kun täällä vain kanssamme on;216402;218200
+311a;https://virsikirja.fi/virsi-311a-jo-joudu-mun-sieluni-heraamahan/;Jo joudu, mun sieluni, heräämähän;218201;218993
+311b;https://virsikirja.fi/virsi-311b-jo-joudu-mun-sieluni-heraamahan/;Jo joudu, mun sieluni, heräämähän;218994;219786
+312;https://virsikirja.fi/virsi-312-muistan-paivaa-autuasta/;Muistan päivää autuasta;219787;220562
+313;https://virsikirja.fi/virsi-313-eteesi-armon-jumala/;Eteesi, armon Jumala;220563;221486
+314;https://virsikirja.fi/virsi-314-suo-jeesus-rakkaani/;Suo, Jeesus rakkaani;221487;222104
+315;https://virsikirja.fi/virsi-315-valvoa-mun-jeesus-anna/;Valvoa mun, Jeesus, anna;222105;222704
+316;https://virsikirja.fi/virsi-316-kayn-armoalttarillesi/;Käyn armoalttarillesi;222705;223486
+317;https://virsikirja.fi/virsi-317-vain-yksi-nimi-meille-riittaa/;Vain yksi nimi meille riittää;223487;224088
+318;https://virsikirja.fi/virsi-318-jeesus-sa-ainoa/;Jeesus, sä ainoa;224089;224539
+319;https://virsikirja.fi/virsi-319-sa-kuljet-seurassa-jeesuksen/;Sä kuljet seurassa Jeesuksen;224540;225311
+320;https://virsikirja.fi/virsi-320-sinua-jumalaa/;Sinua, Jumalaa;225312;226314
+321;https://virsikirja.fi/virsi-321-sinua-jumala/;Sinua, Jumala;226315;227200
+322;https://virsikirja.fi/virsi-322-ajalla-autuaalla-me/;Ajalla autuaalla me;227201;227487
+323;https://virsikirja.fi/virsi-323-nyt-kiita-sielu-herraa/;Nyt kiitä, sielu, Herraa;227488;228589
+324;https://virsikirja.fi/virsi-324-hyva-on-herra/;Hyvä on Herra;228590;229421
+325;https://virsikirja.fi/virsi-325-tulkaa-ja-riemuitkaa/;Tulkaa ja riemuitkaa;229422;229986
+326;https://virsikirja.fi/virsi-326-sinulle-kiitos-isa-maan-ja-taivaan/;Sinulle kiitos, Isä maan ja taivaan;229987;230984
+327;https://virsikirja.fi/virsi-327-kaikki-maat-te-riemuitkaatte/;Kaikki maat, te riemuitkaatte;230985;231359
+328;https://virsikirja.fi/virsi-328-nyt-kiitos-jumalan/;Nyt kiitos Jumalan;231360;231885
+329;https://virsikirja.fi/virsi-329-kiitos-nyt-herran/;Kiitos nyt Herran!;231886;232512
+330;https://virsikirja.fi/virsi-330-nyt-herran-hyvyydesta/;Nyt Herran hyvyydestä;232513;233197
+331;https://virsikirja.fi/virsi-331-ylistan-herran-nimea/;Ylistän Herran nimeä;233198;234008
+332a;https://virsikirja.fi/virsi-332a-herraa-hyvaa-kiittakaa/;Herraa hyvää kiittäkää;234009;234308
+332b;https://virsikirja.fi/virsi-332b-herraa-hyvaa-kiittakaa/;Herraa hyvää kiittäkää;234309;234608
+333;https://virsikirja.fi/virsi-333-kiita-herraa-sieluni/;Kiitä Herraa, sieluni;234609;235288
+334a;https://virsikirja.fi/virsi-334a-armon-lapset-riemuitkaa/;Armon lapset, riemuitkaa;235289;235896
+334b;https://virsikirja.fi/virsi-334b-armon-lapset-riemuitkaa/;Armon lapset, riemuitkaa;235897;236504
+335;https://virsikirja.fi/virsi-335-kaikkivoipa-jumalamme/;Kaikkivoipa Jumalamme;236505;237161
+336;https://virsikirja.fi/virsi-336-me-riemumielin-ylistamme/;Me riemumielin ylistämme;237162;237833
+337;https://virsikirja.fi/virsi-337-ei-laulamasta-lakkaa/;Ei laulamasta lakkaa;237834;238133
+338;https://virsikirja.fi/virsi-338-paiva-vain-ja-hetki-kerrallansa/;Päivä vain ja hetki kerrallansa;238134;238725
+339;https://virsikirja.fi/virsi-339-halleluja-kiitos-herran/;Halleluja, kiitos Herran;238726;239368
+340;https://virsikirja.fi/virsi-340-herrasta-veisaa-kieleni/;Herrasta veisaa kieleni;239369;239770
+341a;https://virsikirja.fi/virsi-341a-kiitos-sulle-jumalani/;Kiitos sulle, Jumalani;239771;240378
+341b;https://virsikirja.fi/virsi-341b-kiitos-sulle-jumalani/;Kiitos sulle, Jumalani;240379;240986
+342;https://virsikirja.fi/virsi-342-niin-ihanaa-on-ylistaa/;Niin ihanaa on ylistää;240987;241519
+343;https://virsikirja.fi/virsi-343-voisinpa-jeesuksestani/;Voisinpa Jeesuksestani;241520;242150
+344;https://virsikirja.fi/virsi-344-maan-ja-taivaan-luojan/;Maan ja taivaan Luojan;242151;242519
+345;https://virsikirja.fi/virsi-345-jo-mahtaisimme-yota-ja-paivaakin-kiittaa/;Jo mahtaisimme yötä ja päivääkin kiittää;242520;242942
+346;https://virsikirja.fi/virsi-346-ma-huudan-kristus-sinua/;Mä huudan, Kristus, sinua;242943;243766
+347;https://virsikirja.fi/virsi-347-pois-viha-kaanna-herra-saasta-meita/;Pois viha käännä, Herra, säästä meitä;243767;244430
+348;https://virsikirja.fi/virsi-348-niin-kuin-peura-janoissansa/;Niin kuin peura janoissansa;244431;245502
+349;https://virsikirja.fi/virsi-349-oi-kristus-edessasi/;Oi Kristus, edessäsi;245503;246027
+350;https://virsikirja.fi/virsi-350-oi-herra-korvas-kallista/;Oi Herra, korvas kallista;246028;246814
+351;https://virsikirja.fi/virsi-351-taas-ahdistuksen-alta/;Taas ahdistuksen alta;246815;247772
+352;https://virsikirja.fi/virsi-352-herra-koska-tuskissani/;Herra, koska tuskissani;247773;248350
+353;https://virsikirja.fi/virsi-353-puolees-jeesus-rukouksin/;Puolees, Jeesus, rukouksin;248351;248859
+354;https://virsikirja.fi/virsi-354-kristityn-ilman-ristia/;Kristityn ilman ristiä;248860;249524
+355;https://virsikirja.fi/virsi-355-jeesus-ilo-elamani/;Jeesus, ilo elämäni;249525;250184
+356;https://virsikirja.fi/virsi-356-tyydy-sielu-herran-tahtohon/;Tyydy, sielu, Herran tahtohon;250185;250444
+357;https://virsikirja.fi/virsi-357-saavu-jeesus-suuri-armontuoja/;Saavu, Jeesus, suuri armontuoja;250445;251001
+358;https://virsikirja.fi/virsi-358-immanuel-mun-valoni/;Immanuel, mun valoni;251002;251483
+359;https://virsikirja.fi/virsi-359-vaivaisten-turva-ainoa/;Vaivaisten turva ainoa;251484;252356
+360;https://virsikirja.fi/virsi-360-suo-herra-mun-sinuhun-uskaltaa/;Suo, Herra, mun sinuhun uskaltaa;252357;253393
+361a;https://virsikirja.fi/virsi-361a-koska-valaissee-kointahtonen/;Koska valaissee kointähtönen;253394;254118
+361b;https://virsikirja.fi/virsi-361b-koska-valaissee-kointahtonen/;Koska valaissee kointähtönen;254119;254843
+362;https://virsikirja.fi/virsi-362-oi-herra-ilo-suuri/;Oi Herra, ilo suuri;254844;255637
+363;https://virsikirja.fi/virsi-363-kuin-mainen-kulta-puhdistuu/;Kuin mainen kulta puhdistuu;255638;256216
+364;https://virsikirja.fi/virsi-364-tie-taivaan-kaita-ahdas-on/;Tie taivaan kaita, ahdas on;256217;257049
+365;https://virsikirja.fi/virsi-365-kay-kohti-isanmaatansa/;Käy kohti isänmaatansa;257050;258397
+366;https://virsikirja.fi/virsi-366-oi-isa-meidan-huolen-meista-kannat/;Oi Isä meidän, huolen meistä kannat;258398;258943
+367;https://virsikirja.fi/virsi-367-on-autuasta-jeesukseen/;On autuasta Jeesukseen;258944;259626
+368;https://virsikirja.fi/virsi-368-jeesus-matkakumppani/;Jeesus matkakumppani;259627;259997
+369;https://virsikirja.fi/virsi-369-nyt-paiva-laskee-pilvi-peittaa/;Nyt päivä laskee, pilvi peittää;259998;260695
+370;https://virsikirja.fi/virsi-370-ah-tiesi-usko-haltuun-herran/;Ah, tiesi usko haltuun Herran;260696;261597
+371;https://virsikirja.fi/virsi-371-sun-sanas-herra-kutsuu-luokses-meita/;Sun sanas, Herra, kutsuu luokses meitä;261598;262501
+372;https://virsikirja.fi/virsi-372-isan-kasi-sydameeni/;Isän käsi, sydämeeni;262502;262957
+373;https://virsikirja.fi/virsi-373-jeesus-kuule-rukoukset/;Jeesus, kuule rukoukset;262958;263439
+374;https://virsikirja.fi/virsi-374-mita-silloin-multa-puuttuu/;Mitä silloin multa puuttuu;263440;263974
+375;https://virsikirja.fi/virsi-375-kun-herra-hoitaa-paimentaa/;Kun Herra hoitaa, paimentaa;263975;264527
+376;https://virsikirja.fi/virsi-376-sinua-jeesus-rakastan/;Sinua, Jeesus, rakastan;264528;265289
+377;https://virsikirja.fi/virsi-377-sun-haltuus-rakas-isani/;Sun haltuus, rakas Isäni;265290;265612
+378;https://virsikirja.fi/virsi-378-kaitse-jeesus-paimen-hyva/;Kaitse, Jeesus, paimen hyvä;265613;266515
+379;https://virsikirja.fi/virsi-379-herralle-tiesi-anna/;Herralle tiesi anna;266516;267085
+380;https://virsikirja.fi/virsi-380-herra-hoida-lastasi/;Herra, hoida lastasi;267086;267763
+381;https://virsikirja.fi/virsi-381-herrassa-on-valo-autuus/;Herrassa on valo, autuus;267764;268494
+382;https://virsikirja.fi/virsi-382-sinuhun-turvaan-jumala/;Sinuhun turvaan, Jumala;268495;269536
+383;https://virsikirja.fi/virsi-383-nyt-ylos-vuoriin-tiella/;Nyt ylös vuoriin tiellä;269537;269951
+384;https://virsikirja.fi/virsi-384-autuas-ken-elamansa/;Autuas, ken elämänsä;269952;270872
+385;https://virsikirja.fi/virsi-385-auta-oi-jeesus-kun-eksytys-suuri/;Auta, oi Jeesus, kun eksytys suuri;270873;272429
+386;https://virsikirja.fi/virsi-386-salattu-herra-valtakunnassasi/;Salattu Herra, valtakunnassasi;272430;273579
+387;https://virsikirja.fi/virsi-387-herraamme-aina-luottaa-saa/;Herraamme aina luottaa saa;273580;274434
+388;https://virsikirja.fi/virsi-388-jeesus-johdata/;Jeesus, johdata;274435;274799
+389;https://virsikirja.fi/virsi-389-jumalan-haltuun-anna/;Jumalan haltuun anna;274800;275470
+390;https://virsikirja.fi/virsi-390-oi-jeesus-armon-ruhtinas/;Oi Jeesus, armon ruhtinas;275471;276306
+391;https://virsikirja.fi/virsi-391-armahda-oi-herra-meita/;Armahda, oi Herra, meitä;276307;277740
+392;https://virsikirja.fi/virsi-392-oi-miksi-tiella-herrani/;Oi, miksi tiellä Herrani;277741;278272
+393;https://virsikirja.fi/virsi-393-vakaana-herran-teita/;Vakaana Herran teitä;278273;279079
+394;https://virsikirja.fi/virsi-394-minua-tutkit-herrani/;Minua tutkit, Herrani;279080;280101
+395;https://virsikirja.fi/virsi-395-jo-ennen-syntymaani/;Jo ennen syntymääni;280102;280480
+396;https://virsikirja.fi/virsi-396-kayn-kohti-sinua/;Käyn kohti sinua;280481;280925
+397;https://virsikirja.fi/virsi-397-kun-on-turva-jumalassa/;Kun on turva Jumalassa;280926;281419
+398;https://virsikirja.fi/virsi-398-oi-tulkaa-tyotatekevat/;Oi tulkaa, työtätekevät;281420;282117
+399;https://virsikirja.fi/virsi-399-taas-armon-kyllyydesta/;Taas armon kyllyydestä;282118;282767
+400;https://virsikirja.fi/virsi-400-voi-niita-jotka-etsivat/;Voi niitä, jotka etsivät;282768;283457
+401;https://virsikirja.fi/virsi-401-oi-herra-henkes-valo-suo/;Oi Herra, Henkes valo suo;283458;283873
+402;https://virsikirja.fi/virsi-402-en-tehda-hyvaa-voisi/;En tehdä hyvää voisi;283874;284885
+403;https://virsikirja.fi/virsi-403-oi-herra-vakavasti/;Oi Herra, vakavasti;284886;285413
+404;https://virsikirja.fi/virsi-404-voittaja-suo-voitto-meille/;Voittaja, suo voitto meille;285414;286027
+405;https://virsikirja.fi/virsi-405-kirkkautta-kohti-kulje/;Kirkkautta kohti kulje;286028;286611
+406;https://virsikirja.fi/virsi-406-jo-heraa-sielu-synnin-unestasi/;Jo herää, sielu, synnin unestasi;286612;287248
+407;https://virsikirja.fi/virsi-407-nyt-nukutko-vaan/;Nyt nukutko vaan;287249;287923
+408;https://virsikirja.fi/virsi-408-joutukaa-sielut-on-aikamme-kallis/;Joutukaa, sielut, on aikamme kallis;287924;288580
+409;https://virsikirja.fi/virsi-409-suo-jeesus-paras-opettaja/;Suo, Jeesus, paras opettaja;288581;289173
+410;https://virsikirja.fi/virsi-410-maailman-tungoksessa-kay/;Maailman tungoksessa käy;289174;290259
+411a;https://virsikirja.fi/virsi-411a-rohkenethan-minka-maksoi/;Rohkenethan, minkä maksoi;290260;290883
+411b;https://virsikirja.fi/virsi-411b-rohkenethan-minka-maksoi/;Rohkenethan, minkä maksoi;290884;291507
+412;https://virsikirja.fi/virsi-412-miksi-itkit-vapahtaja/;Miksi itkit, Vapahtaja;291508;292181
+413;https://virsikirja.fi/virsi-413-ah-miksi-taivaan-valtakunnan/;Ah, miksi taivaan valtakunnan;292182;292953
+414;https://virsikirja.fi/virsi-414-oi-kuinka-onkaan-autuas/;Oi, kuinka onkaan autuas;292954;293870
+415;https://virsikirja.fi/virsi-415-kaskien-et/;Käskien et;293871;294179
+416;https://virsikirja.fi/virsi-416-nyt-on-aika-kiitoksen/;Nyt on aika kiitoksen;294180;294740
+417;https://virsikirja.fi/virsi-417-jeesus-askeleesi/;Jeesus, askeleesi;294741;295248
+418;https://virsikirja.fi/virsi-418-apostolinsa-maailmaan/;Apostolinsa maailmaan;295249;295952
+419;https://virsikirja.fi/virsi-419-soi-riemuviesti-jumalan/;Soi, riemuviesti Jumalan;295953;296450
+420a;https://virsikirja.fi/virsi-420a-nyt-soikoon-taivas-kiitostaan/;Nyt soikoon taivas kiitostaan;296451;297223
+420b;https://virsikirja.fi/virsi-420b-nyt-soikoon-taivas-kiitostaan/;Nyt soikoon taivas kiitostaan;297224;297996
+421;https://virsikirja.fi/virsi-421-siion-kutsu-kansat-maan/;Siion, kutsu kansat maan;297997;298645
+422;https://virsikirja.fi/virsi-422-jeesus-kristus-nimeasi/;Jeesus Kristus, nimeäsi;298646;299347
+423;https://virsikirja.fi/virsi-423-katseesi-nosta-yli-maan/;Katseesi nosta yli maan;299348;299928
+424;https://virsikirja.fi/virsi-424-maan-aariin-asti-herra/;Maan ääriin asti, Herra;299929;300462
+425;https://virsikirja.fi/virsi-425-soi-kiitosvirsi-kerran/;Soi kiitosvirsi kerran;300463;301003
+426;https://virsikirja.fi/virsi-426-menkaa-maitten-aariin-asti/;Menkää maitten ääriin asti!;301004;301705
+427;https://virsikirja.fi/virsi-427-taas-uudet-kielet-vievat-sanomaa/;Taas uudet kielet vievät sanomaa;301706;302122
+428;https://virsikirja.fi/virsi-428-kiitos-suuren-kuninkaan/;Kiitos suuren Kuninkaan;302123;302642
+429;https://virsikirja.fi/virsi-429-ylitse-kaikkien-rajojen/;Ylitse kaikkien rajojen;302643;303303
+430;https://virsikirja.fi/virsi-430-rakkaus-kun-kuvaksesi/;Rakkaus, kun kuvaksesi;303304;303995
+431;https://virsikirja.fi/virsi-431-ken-on-mun-lahimmaiseni/;Ken on mun lähimmäiseni;303996;304667
+432;https://virsikirja.fi/virsi-432-herra-jeesus-kunniasta/;Herra Jeesus, kunniasta;304668;305276
+433;https://virsikirja.fi/virsi-433-oi-etko-ihminen-muistakaan/;Oi etkö, ihminen, muistakaan;305277;305991
+434;https://virsikirja.fi/virsi-434-kunnian-herraa-palvelkaa/;Kunnian Herraa palvelkaa;305992;306616
+435;https://virsikirja.fi/virsi-435-sa-kaskit-herra-valona/;Sä käskit, Herra, valona;306617;307182
+436;https://virsikirja.fi/virsi-436-rakkaus-olet-aareton/;Rakkaus olet ääretön;307183;307864
+437;https://virsikirja.fi/virsi-437-ihmiskunnan-tuskaa-kantaa/;Ihmiskunnan tuskaa kantaa;307865;308346
+438;https://virsikirja.fi/virsi-438-oi-armahda-kristus-niin-kaita-on-tie/;Oi armahda, Kristus, niin kaita on tie;308347;308921
+439;https://virsikirja.fi/virsi-439-nayta-herra-jeesukseni/;Näytä, Herra Jeesukseni;308922;309553
+440;https://virsikirja.fi/virsi-440-orjantappuroita-kasvaa/;Orjantappuroita kasvaa;309554;310350
+441;https://virsikirja.fi/virsi-441-tanaan-tassa-maailmassa/;Tänään tässä maailmassa;310351;311041
+442;https://virsikirja.fi/virsi-442-herran-ristin-kantajiksi/;Herran ristin kantajiksi;311042;311458
+443;https://virsikirja.fi/virsi-443-annoit-herra-tehtavan/;Annoit, Herra, tehtävän;311459;312030
+444;https://virsikirja.fi/virsi-444-on-yksi-isa-meilla/;On yksi Isä meillä;312031;312473
+445;https://virsikirja.fi/virsi-445-oi-pyha-henki-rienna/;Oi Pyhä Henki, riennä;312474;313277
+446;https://virsikirja.fi/virsi-446-oi-pyha-henki-pyydamme/;Oi Pyhä Henki, pyydämme;313278;313814
+447;https://virsikirja.fi/virsi-447-kristus-valo-maailman/;Kristus, valo maailman;313815;314465
+448;https://virsikirja.fi/virsi-448-ei-itaa-eika-lanttakaan/;Ei itää eikä länttäkään;314466;314768
+449;https://virsikirja.fi/virsi-449-monin-kielin-keskeltamme/;Monin kielin keskeltämme;314769;315130
+450;https://virsikirja.fi/virsi-450-maa-kaikki-vaikka-herran-on/;Maa kaikki vaikka Herran on;315131;315746
+451;https://virsikirja.fi/virsi-451-sinulle-kiitos-isa-lahjastasi/;Sinulle kiitos, Isä, lahjastasi;315747;316248
+452;https://virsikirja.fi/virsi-452-jo-herran-armopoyta/;Jo Herran armopöytä;316249;316773
+453;https://virsikirja.fi/virsi-453-kivi-onko-kourassani/;Kivi onko kourassani;316774;317087
+454;https://virsikirja.fi/virsi-454-liekkeja-on-monta/;Liekkejä on monta;317088;317498
+455;https://virsikirja.fi/virsi-455-luodut-te-herraa-kiittakaa/;Luodut, te Herraa kiittäkää;317499;318550
+456;https://virsikirja.fi/virsi-456-jos-tahdot-hartain-mielin/;Jos tahdot hartain mielin;318551;319372
+457;https://virsikirja.fi/virsi-457-kiitetty-nyt-olkoon/;Kiitetty nyt olkoon;319373;320542
+458;https://virsikirja.fi/virsi-458-ylistan-luoja-voimaasi/;Ylistän, Luoja, voimaasi;320543;321000
+459;https://virsikirja.fi/virsi-459-taivaat-kaikki-valtiaansa/;Taivaat kaikki valtiaansa;321001;321774
+460;https://virsikirja.fi/virsi-460-oi-herra-kaikkivaltias/;Oi Herra kaikkivaltias;321775;322318
+461;https://virsikirja.fi/virsi-461-kiita-herraa-yo-ja-paiva/;Kiitä Herraa, yö ja päivä;322319;323269
+462;https://virsikirja.fi/virsi-462-soi-kunniaksi-luojan/;Soi kunniaksi Luojan;323270;323721
+463;https://virsikirja.fi/virsi-463-kanssa-luomakuntansa/;Kanssa luomakuntansa;323722;324259
+464;https://virsikirja.fi/virsi-464-kuin-oksat-vihannoivat/;Kuin oksat vihannoivat;324260;324773
+465;https://virsikirja.fi/virsi-465-lahjoita-herra-perheisiimme/;Lahjoita, Herra, perheisiimme;324774;325280
+466;https://virsikirja.fi/virsi-466-oi-herra-kaiken-luoja/;Oi Herra, kaiken luoja;325281;325943
+467;https://virsikirja.fi/virsi-467-oi-jeesus-siunaa-aitia/;Oi Jeesus, siunaa äitiä;325944;326271
+468;https://virsikirja.fi/virsi-468-syliisi-hellaan-sulje/;Syliisi hellään sulje;326272;326796
+469;https://virsikirja.fi/virsi-469-kun-nimipaivani-on-tanaan/;Kun nimipäiväni on tänään;326797;327185
+470;https://virsikirja.fi/virsi-470-kirkkaat-riemun-aanet-soivat/;Kirkkaat riemun äänet soivat;327186;327799
+471;https://virsikirja.fi/virsi-471-hyva-jumala-kiitan-kodista/;Hyvä Jumala, kiitän kodista;327800;328142
+472a;https://virsikirja.fi/virsi-472a-nyt-silmain-alla-jeesuksen/;Nyt silmäin alla Jeesuksen;328143;328320
+472b;https://virsikirja.fi/virsi-472b-nyt-silmain-alla-jeesuksen/;Nyt silmäin alla Jeesuksen;328321;328498
+473;https://virsikirja.fi/virsi-473-kaikki-katsovat-sinua-herra/;Kaikki katsovat sinua, Herra;328499;328745
+474;https://virsikirja.fi/virsi-474-nyt-herrallemme-kiitoksen/;Nyt Herrallemme kiitoksen;328746;329033
+475;https://virsikirja.fi/virsi-475-kaikkien-silmat-tarkkaavat/;Kaikkien silmät tarkkaavat;329034;329596
+476;https://virsikirja.fi/virsi-476-kun-paiva-laskee-emmauksessa/;Kun päivä laskee Emmauksessa;329597;330018
+477;https://virsikirja.fi/virsi-477-on-jumalassa-turvani/;On Jumalassa turvani;330019;330647
+478;https://virsikirja.fi/virsi-478-jos-jeesus-herrani/;Jos, Jeesus, Herrani;330648;331184
+479;https://virsikirja.fi/virsi-479-sinussa-kristus-luotiin-kerran/;Sinussa, Kristus, luotiin kerran;331185;331875
+480;https://virsikirja.fi/virsi-480-muista-jeesus-minua/;Muista, Jeesus, minua;331876;332305
+481;https://virsikirja.fi/virsi-481-jumala-kasissasi/;Jumala, käsissäsi;332306;332701
+482;https://virsikirja.fi/virsi-482-elama-on-meri/;Elämä on meri;332702;333112
+483;https://virsikirja.fi/virsi-483-kuka-meista-sinua/;Kuka meistä sinua;333113;333630
+484;https://virsikirja.fi/virsi-484-totuuden-henki/;Totuuden Henki;333631;334011
+485;https://virsikirja.fi/virsi-485-kun-koulutyoni-alkaa-taas/;Kun koulutyöni alkaa taas;334012;334323
+486;https://virsikirja.fi/virsi-486-puoleesi-herra-luomme/;Puoleesi, Herra, luomme;334324;334723
+487;https://virsikirja.fi/virsi-487-jeesus-sinuun-turvaten/;Jeesus, sinuun turvaten;334724;334872
+488;https://virsikirja.fi/virsi-488-jeesus-sina-itsekin/;Jeesus, sinä itsekin;334873;335141
+489;https://virsikirja.fi/virsi-489-sinua-suuri-jumala/;Sinua, suuri Jumala;335142;335544
+490;https://virsikirja.fi/virsi-490-ma-silmat-luon-ylos-taivaaseen/;Mä silmät luon ylös taivaaseen;335545;335988
+491;https://virsikirja.fi/virsi-491-oi-jumala-et-hylkaa-pienta-lasta/;Oi Jumala, et hylkää pientä lasta;335989;336608
+492;https://virsikirja.fi/virsi-492-ystava-sa-lapsien/;Ystävä sä lapsien;336609;336936
+493;https://virsikirja.fi/virsi-493-jeesus-lasten-auttaja/;Jeesus, lasten auttaja;336937;337302
+494;https://virsikirja.fi/virsi-494-luoja-enkeleineen/;Luoja enkeleineen (vain äänite);337303;337319
+495;https://virsikirja.fi/virsi-495-taivaan-isa-nostit-minut/;Taivaan Isä, nostit minut;337320;337676
+496;https://virsikirja.fi/virsi-496-oi-jeesus-ota-syliisi/;Oi Jeesus, ota syliisi;337677;337923
+497;https://virsikirja.fi/virsi-497-kun-aidit-lapsiansa/;Kun äidit lapsiansa;337924;338206
+498;https://virsikirja.fi/virsi-498-nyt-kulkee-halki-korpimaan/;Nyt kulkee halki korpimaan;338207;338610
+499;https://virsikirja.fi/virsi-499-jumalan-kammenella/;Jumalan kämmenellä;338611;338894
+500;https://virsikirja.fi/virsi-500-kayn-jeesus-kasvois-etehen/;Käyn, Jeesus, kasvois etehen;338895;339223
+501;https://virsikirja.fi/virsi-501-kuule-isa-taivaan-pyynto-taa/;Kuule, Isä taivaan, pyyntö tää (ei verkkojulkaisua);339224;339248
+502;https://virsikirja.fi/virsi-502-jeesus-meita-kosketa-nyt/;Jeesus, meitä kosketa nyt;339249;339851
+503;https://virsikirja.fi/virsi-503-taivaan-isa-suojan-antaa/;Taivaan Isä suojan antaa;339852;340381
+504;https://virsikirja.fi/virsi-504-ah-vuodata-herra-jo-henkesi/;Ah vuodata, Herra, jo Henkesi;340382;340969
+505;https://virsikirja.fi/virsi-505-valtiaamme-kunniaasi/;Valtiaamme, kunniaasi;340970;341297
+506;https://virsikirja.fi/virsi-506-jeesus-tanne-tulit-meita/;Jeesus, tänne tulit meitä;341298;341892
+507;https://virsikirja.fi/virsi-507-herra-lahjanasi-sain-nuoren-elamani/;Herra, lahjanasi sain nuoren elämäni;341893;342548
+508;https://virsikirja.fi/virsi-508-valkeus-kirkas-paalla-synkan-maan/;Valkeus kirkas päällä synkän maan;342549;342943
+509;https://virsikirja.fi/virsi-509-herra-elamaani/;Herra, elämääni;342944;343176
+510;https://virsikirja.fi/virsi-510-sina-jeesus-ymmarrat-parhaiten/;Sinä, Jeesus, ymmärrät parhaiten;343177;343701
+511;https://virsikirja.fi/virsi-511-tie-valmis-on/;Tie valmis on;343702;344255
+512;https://virsikirja.fi/virsi-512-jo-varhain-herra-annoit/;Jo varhain, Herra, annoit;344256;344789
+513;https://virsikirja.fi/virsi-513-jeesus-sina-huomaat/;Jeesus, sinä huomaat;344790;345239
+514;https://virsikirja.fi/virsi-514-anna-meille-rauhasi/;Anna meille rauhasi;345240;345596
+515;https://virsikirja.fi/virsi-515-nouskaamme-vuorelle-korkeimmalle/;Nouskaamme vuorelle korkeimmalle;345597;346021
+516;https://virsikirja.fi/virsi-516-kuulkaa-keita-mestari/;Kuulkaa, keitä Mestari;346022;346558
+517;https://virsikirja.fi/virsi-517-herra-kadellasi/;Herra, kädelläsi;346559;347324
+518;https://virsikirja.fi/virsi-518-nyt-anna-herra-tultasi/;Nyt anna, Herra, tultasi;347325;348007
+519;https://virsikirja.fi/virsi-519-on-tyoni-herra-lahjaasi/;On työni, Herra, lahjaasi;348008;348575
+520;https://virsikirja.fi/virsi-520-oi-hyva-jumala/;Oi hyvä Jumala;348576;349569
+521;https://virsikirja.fi/virsi-521-oi-ihminen-mieleesi-paina/;Oi ihminen, mieleesi paina;349570;350816
+522;https://virsikirja.fi/virsi-522-anna-herra-kansallemme/;Anna, Herra, kansallemme;350817;351286
+523;https://virsikirja.fi/virsi-523-loit-herra-minut-maailmaasi/;Loit, Herra, minut maailmaasi;351287;351910
+524;https://virsikirja.fi/virsi-524-kun-paivan-tyo-on-paattynyt/;Kun päivän työ on päättynyt;351911;353094
+525;https://virsikirja.fi/virsi-525-suurempi-kuin-sydameni/;Suurempi kuin sydämeni;353095;354022
+526;https://virsikirja.fi/virsi-526-oi-isa-vanhuudessa/;Oi Isä, vanhuudessa;354023;354423
+527;https://virsikirja.fi/virsi-527-kun-askeleeni-hidastuu/;Kun askeleeni hidastuu;354424;354800
+528;https://virsikirja.fi/virsi-528-luoksemme-paivat-menneet/;Luoksemme päivät menneet;354801;355420
+529;https://virsikirja.fi/virsi-529-vielakin-herra-tuhlaa/;Vieläkin Herra tuhlaa;355421;355984
+530;https://virsikirja.fi/virsi-530-herrani-minut-tanne-loit/;Herrani, minut tänne loit;355985;356549
+531;https://virsikirja.fi/virsi-531-lahtohetken-lahetessa/;Lähtöhetken lähetessä;356550;357119
+532;https://virsikirja.fi/virsi-532-taas-siunattu-paiva/;Taas siunattu päivä;357120;358372
+533;https://virsikirja.fi/virsi-533-sua-kiitan-jumalani/;Sua kiitän, Jumalani;358373;359150
+534;https://virsikirja.fi/virsi-534-yo-synkka-aivan-hammastyi/;Yö synkkä aivan hämmästyi;359151;359738
+535;https://virsikirja.fi/virsi-535-taas-alkaa-kiitoksella/;Taas alkaa kiitoksella;359739;360366
+536;https://virsikirja.fi/virsi-536-kristus-valo-valkeuden/;Kristus, valo valkeuden;360367;361108
+537;https://virsikirja.fi/virsi-537-kun-koittaa-huomenhetki/;Kun koittaa huomenhetki;361109;362283
+538;https://virsikirja.fi/virsi-538-oi-jeesus-lohdutukseni/;Oi Jeesus, lohdutukseni;362284;363009
+539;https://virsikirja.fi/virsi-539-ah-heraa-sydameni/;Ah herää, sydämeni;363010;363781
+540;https://virsikirja.fi/virsi-540-aurinko-armas-valollansa/;Aurinko armas valollansa;363782;364195
+541;https://virsikirja.fi/virsi-541-yo-synkka-on-jo-halvennyt/;Yö synkkä on jo hälvennyt;364196;364678
+542;https://virsikirja.fi/virsi-542-nyt-herra-aamun-tullen/;Nyt, Herra, aamun tullen;364679;365618
+543;https://virsikirja.fi/virsi-543-valkeus-iankaikkinen/;Valkeus iankaikkinen;365619;366289
+544;https://virsikirja.fi/virsi-544-herra-jeesus-anna-minun/;Herra Jeesus, anna minun;366290;367029
+545;https://virsikirja.fi/virsi-545-kaikessa-herra-armias/;Kaikessa, Herra armias;367030;367520
+546;https://virsikirja.fi/virsi-546-jeesus-ilo-sydameni/;Jeesus, ilo sydämeni;367521;368039
+547;https://virsikirja.fi/virsi-547-joka-aamu-on-armo-uus/;Joka aamu on armo uus;368040;368554
+548;https://virsikirja.fi/virsi-548-tule-kanssani-herra-jeesus/;Tule kanssani, Herra Jeesus (ei verkkojulkaisua);368555;368578
+549;https://virsikirja.fi/virsi-549-isamme-kiitos-paivasta/;Isämme, kiitos päivästä;368579;369006
+550;https://virsikirja.fi/virsi-550-oi-kristus-kirkas-aamunkoi/;Oi Kristus, kirkas aamunkoi;369007;369501
+551;https://virsikirja.fi/virsi-551-sinua-kristus-kiitamme/;Sinua, Kristus, kiitämme;369502;370000
+552;https://virsikirja.fi/virsi-552-mua-siipeis-suojaan-katke/;Mua siipeis suojaan kätke;370001;370291
+553;https://virsikirja.fi/virsi-553-paiva-jalleen-yohon-vaipuu/;Päivä jälleen yöhön vaipuu;370292;371342
+554;https://virsikirja.fi/virsi-554-jo-paiva-ehtii-ehtoolle/;Jo päivä ehtii ehtoolle;371343;371845
+555;https://virsikirja.fi/virsi-555-oi-herra-luoksein-jaa/;Oi Herra, luoksein jää;371846;372267
+556;https://virsikirja.fi/virsi-556-taas-paiva-ajan-virtahan/;Taas päivä ajan virtahan;372268;372552
+557;https://virsikirja.fi/virsi-557-sinun-luoksesi-jeesus/;Sinun luoksesi, Jeesus;372553;372953
+558;https://virsikirja.fi/virsi-558-pois-aurinko-jo-painui-vuorten-taaksi/;Pois aurinko jo painui vuorten taaksi;372954;373185
+559;https://virsikirja.fi/virsi-559-nyt-kaikki-paattaa-tyonsa/;Nyt kaikki päättää työnsä;373186;373757
+560;https://virsikirja.fi/virsi-560-maat-metsat-hiljenneina/;Maat, metsät hiljenneinä;373758;374295
+561;https://virsikirja.fi/virsi-561-tastakin-paivasta-tahdon-nyt-kiittaa/;Tästäkin päivästä tahdon nyt kiittää;374296;374918
+562;https://virsikirja.fi/virsi-562-kun-paiva-mailleen-vaipuu/;Kun päivä mailleen vaipuu;374919;375364
+563;https://virsikirja.fi/virsi-563-ilta-on-tullut-luojani/;Ilta on tullut, Luojani;375365;375625
+564;https://virsikirja.fi/virsi-564-aurinko-vaipuu-mailleen/;Aurinko vaipuu mailleen;375626;376171
+565;https://virsikirja.fi/virsi-565-nyt-melu-tyyntyy/;Nyt melu tyyntyy;376172;376481
+566;https://virsikirja.fi/virsi-566-yo-joutuu-etehemme/;Yö joutuu etehemme;376482;376620
+567;https://virsikirja.fi/virsi-567-ah-kuinka-kevat-hohtaa/;Ah, kuinka kevät hohtaa;376621;377148
+568;https://virsikirja.fi/virsi-568-oi-kuinka-kevat-sateilee/;Oi, kuinka kevät säteilee;377149;377595
+569;https://virsikirja.fi/virsi-569-heraa-sydan-nukkumasta/;Herää, sydän, nukkumasta;377596;378080
+570;https://virsikirja.fi/virsi-570-luomisen-juhlaa-taynna/;Luomisen juhlaa täynnä;378081;378502
+571;https://virsikirja.fi/virsi-571-jo-joutui-armas-aika/;Jo joutui armas aika;378503;379340
+572;https://virsikirja.fi/virsi-572-taas-kukkasilla-kukkulat/;Taas kukkasilla kukkulat;379341;380053
+573;https://virsikirja.fi/virsi-573-maa-vaikka-synnin-tahden/;Maa vaikka synnin tähden;380054;380539
+574;https://virsikirja.fi/virsi-574-on-kaunis-synnyinmaamme/;On kaunis synnyinmaamme;380540;381380
+575;https://virsikirja.fi/virsi-575-maan-muokkasimme-veimme/;Maan muokkasimme, veimme;381381;381946
+576;https://virsikirja.fi/virsi-576-maa-hohtaa-lumivaipassansa/;Maa hohtaa lumivaipassansa;381947;382721
+577;https://virsikirja.fi/virsi-577-sun-kates-herra-voimakkaan/;Sun kätes, Herra, voimakkaan;382722;383480
+578;https://virsikirja.fi/virsi-578-ylista-herraa-jumalaa/;Ylistä Herraa Jumalaa;383481;383963
+579;https://virsikirja.fi/virsi-579-oi-herra-korkein-valtiaamme/;Oi Herra, korkein valtiaamme;383964;384394
+580;https://virsikirja.fi/virsi-580-oi-kuningasten-kuningas/;Oi kuningasten kuningas;384395;384992
+581;https://virsikirja.fi/virsi-581-kiitos-jumalamme-kun-annoit-kauniin-maan/;Kiitos, Jumalamme, kun annoit kauniin maan;384993;385496
+582;https://virsikirja.fi/virsi-582-jos-maatamme-ei-rakenna/;Jos maatamme ei rakenna;385497;386596
+583;https://virsikirja.fi/virsi-583-veisaten-herralle/;Veisaten Herralle;386597;387032
+584;https://virsikirja.fi/virsi-584-siunaa-ja-varjele-meita/;Siunaa ja varjele meitä;387033;387412
+585;https://virsikirja.fi/virsi-585-siunatkoon-herramme-synnyinmaata/;Siunatkoon Herramme synnyinmaata;387413;387893
+586;https://virsikirja.fi/virsi-586-jumala-meille-armossa/;Jumala, meille armossa;387894;388181
+587;https://virsikirja.fi/virsi-587-terve-rauha-suloinen/;Terve, rauha suloinen;388182;388767
+588;https://virsikirja.fi/virsi-588-rauhan-herra-maailmaasi/;Rauhan Herra, maailmaasi;388768;389364
+589;https://virsikirja.fi/virsi-589-rauhan-herra-siunaa-meita/;Rauhan Herra, siunaa meitä;389365;389856
+590;https://virsikirja.fi/virsi-590-rauha-ei-saavu-jos-emme/;Rauha ei saavu, jos emme;389857;390414
+591;https://virsikirja.fi/virsi-591-uudet-taivaat-uuden-maan/;Uudet taivaat, uuden maan;390415;390891
+592;https://virsikirja.fi/virsi-592-mua-lasnaolostasi/;Mua läsnäolostasi;390892;391162
+593;https://virsikirja.fi/virsi-593-maan-paalla-aina-ihminen/;Maan päällä aina, ihminen;391163;392101
+594;https://virsikirja.fi/virsi-594-kay-aavaa-merta-purtemme/;Käy aavaa merta purtemme;392102;392790
+595;https://virsikirja.fi/virsi-595-lahdimme-liikkeelle-isien-maasta/;Lähdimme liikkeelle isien maasta;392791;393463
+596;https://virsikirja.fi/virsi-596-herra-varjelija-teiden/;Herra, varjelija teiden;393464;394004
+597;https://virsikirja.fi/virsi-597-sinua-luoja-taivaitten/;Sinua, Luoja taivaitten;394005;394350
+598;https://virsikirja.fi/virsi-598-millainen-on-elama/;Millainen on elämä?;394351;395065
+599;https://virsikirja.fi/virsi-599-maailma-taalla-iloitsee/;Maailma täällä iloitsee;395066;396277
+600;https://virsikirja.fi/virsi-600-hyvyyden-voiman-ihmeelliseen-suojaan/;Hyvyyden voiman ihmeelliseen suojaan;396278;396851
+601;https://virsikirja.fi/virsi-601-maailmaa-herra-armahda/;Maailmaa, Herra, armahda;396852;397277
+602;https://virsikirja.fi/virsi-602-hammennys-valtaa-usein-tajuntamme/;Hämmennys valtaa usein tajuntamme;397278;398061
+603;https://virsikirja.fi/virsi-603-isa-jumala-nyt-katso-maamme-puoleen/;Isä Jumala, nyt katso maamme puoleen;398062;398392
+604;https://virsikirja.fi/virsi-604-oi-herrani-kun-matkani/;Oi Herrani, kun matkani;398393;398829
+605;https://virsikirja.fi/virsi-605-kun-taalta-jeesus-erkanen/;Kun täältä, Jeesus, erkanen;398830;399768
+606;https://virsikirja.fi/virsi-606-jo-joutuu-lahtohetki/;Jo joutuu lähtöhetki;399769;400538
+607;https://virsikirja.fi/virsi-607-oi-herrani-nyt-haltuusi/;Oi Herrani, nyt haltuusi;400539;401435
+608;https://virsikirja.fi/virsi-608-kun-saapunut-on-hetkeni/;Kun saapunut on hetkeni;401436;402238
+609;https://virsikirja.fi/virsi-609-jaa-hyvasti-nyt-sina-maailma-jaa/;Jää hyvästi nyt, sinä maailma, jää;402239;403092
+610;https://virsikirja.fi/virsi-610-ah-kaikki-kaataa-kuolema/;Ah, kaikki kaataa kuolema;403093;404294
+611;https://virsikirja.fi/virsi-611-kayn-aina-kohti-kuolemaa/;Käyn aina kohti kuolemaa;404295;404611
+612;https://virsikirja.fi/virsi-612-etko-ole-ihmisparka/;Etkö ole, ihmisparka;404612;405883
+613;https://virsikirja.fi/virsi-613-ken-tuonen-valtaa-karttaa-voi/;Ken tuonen valtaa karttaa voi?;405884;406701
+614;https://virsikirja.fi/virsi-614-nyt-edessasi-jumala/;Nyt edessäsi, Jumala;406702;407343
+615;https://virsikirja.fi/virsi-615-oi-suruton-niin-varma-menossasi/;Oi suruton, niin varma menossasi;407344;408279
+616a;https://virsikirja.fi/virsi-616a-puhtaana-niityn-kukka/;Puhtaana niityn kukka;408280;409089
+616b;https://virsikirja.fi/virsi-616b-puhtaana-niityn-kukka/;Puhtaana niityn kukka;409090;409899
+617;https://virsikirja.fi/virsi-617-taivaassa-ratki-taivaassa/;Taivaassa, ratki taivaassa;409900;410779
+618;https://virsikirja.fi/virsi-618-ratki-taivaassa-ratki-taivaassa/;Ratki taivaassa, ratki taivaassa;410780;411432
+619;https://virsikirja.fi/virsi-619-eijaa-jo-laulaa-sielu-kiitostansa/;Eijaa! Jo laulaa sielu kiitostansa;411433;412472
+620;https://virsikirja.fi/virsi-620-sen-suven-suloisuutta/;Sen suven suloisuutta;412473;413724
+621;https://virsikirja.fi/virsi-621-matkamiehen-mieli-palaa/;Matkamiehen mieli palaa;413725;414477
+622;https://virsikirja.fi/virsi-622-mina-vaivainen-vain-mato-matkamies-maan/;Minä vaivainen, vain mato, matkamies maan;414478;415062
+623;https://virsikirja.fi/virsi-623-taivaaseen-kay-matkamme/;Taivaaseen käy matkamme;415063;415872
+624;https://virsikirja.fi/virsi-624-haavoihin-herran-jeesuksen/;Haavoihin Herran Jeesuksen;415873;416153
+625;https://virsikirja.fi/virsi-625-jeesus-elaa-turvani/;Jeesus elää, turvani;416154;416932
+626;https://virsikirja.fi/virsi-626-tuolla-taivaan-asunnoissa/;Tuolla taivaan asunnoissa;416933;417401
+627;https://virsikirja.fi/virsi-627-elama-murheen-laaksossa/;Elämä murheen laaksossa;417402;418416
+628;https://virsikirja.fi/virsi-628-en-ymmarra/;En ymmärrä;418417;419184
+629;https://virsikirja.fi/virsi-629-oi-riemun-rikkautta/;Oi riemun rikkautta;419185;420369
+630;https://virsikirja.fi/virsi-630-oi-joukko-valkopukuinen/;Oi, joukko valkopukuinen;420370;421101
+631a;https://virsikirja.fi/virsi-631a-oi-herra-jos-ma-matkamies-maan/;Oi Herra, jos mä matkamies maan;421102;421605
+631b;https://virsikirja.fi/virsi-631b-oi-herra-jos-ma-matkamies-maan/;Oi Herra, jos mä matkamies maan;421606;422109
+632;https://virsikirja.fi/virsi-632-nyt-ylos-sieluni/;Nyt ylös, sieluni;422110;423228
+700;https://www.lhpk.fi/luterilaisiavirsia/?numero=700;Jumala, rakas Isämme;423229;423997
+701;https://www.lhpk.fi/luterilaisiavirsia/?numero=701;Sanasi, Jumala, varjelee uskon lasta;423998;424791
+702;https://www.lhpk.fi/luterilaisiavirsia/?numero=702;Tulkoon valkeus;424792;425795
+703;https://www.lhpk.fi/luterilaisiavirsia/?numero=703;Sanasi voimalla;425796;426200
+704;https://www.lhpk.fi/luterilaisiavirsia/?numero=704;Pakanat miksi pauhaavat;426201;427279
+705;https://www.lhpk.fi/luterilaisiavirsia/?numero=705;Huutoni kuule, Jumalani;427280;427819
+706;https://www.lhpk.fi/luterilaisiavirsia/?numero=706;Taivaasta katso, Jumala;427820;428750
+707;https://www.lhpk.fi/luterilaisiavirsia/?numero=707;Oi rakas Herrani;428751;429162
+708;https://www.lhpk.fi/luterilaisiavirsia/?numero=708;Herrani, älä rankaise;429163;429802
+709;https://www.lhpk.fi/luterilaisiavirsia/?numero=709;Minua Herra paimentaa;429803;430179
+710;https://www.lhpk.fi/luterilaisiavirsia/?numero=710;On autuas, ken yksin ilonaan;430180;430550
+711;https://www.lhpk.fi/luterilaisiavirsia/?numero=711;On kallis, hyvä asia;430551;431385
+712;https://www.lhpk.fi/luterilaisiavirsia/?numero=712;Nimesi, Herra, korkea on maassa;431386;431961
+713;https://www.lhpk.fi/luterilaisiavirsia/?numero=713;Riemuitkaa aina Herrassamme;431962;432895
+714;https://www.lhpk.fi/luterilaisiavirsia/?numero=714;Sain turvan, Herra, sinusta;432896;433597
+715;https://www.lhpk.fi/luterilaisiavirsia/?numero=715;Ylistys, hoosianna, Pojalle Daavidin;433598;434599
+716;https://www.lhpk.fi/luterilaisiavirsia/?numero=716;Sinua kiitän, Herrani;434600;435287
+717;https://www.lhpk.fi/luterilaisiavirsia/?numero=717;Sieluni riemuin veisaa ;435288;436647
+718;https://www.lhpk.fi/luterilaisiavirsia/?numero=718;Kiitä Herraa, minun sieluni;436648;437107
+719;https://www.lhpk.fi/luterilaisiavirsia/?numero=719;Nyt palvokoot taivaat kuningastaan;437108;437837
+720;https://www.lhpk.fi/luterilaisiavirsia/?numero=720;Kuningas jalo, ihana;437838;438982
+721;https://www.lhpk.fi/luterilaisiavirsia/?numero=721;Herra lausui Herralleni;438983;439952
+722;https://www.lhpk.fi/luterilaisiavirsia/?numero=722;Sieluni, kiitä vain Herraa;439953;441281
+723;https://www.lhpk.fi/luterilaisiavirsia/?numero=723;Maat ja kansat, iloitkaatte;441282;441769
+724;https://www.lhpk.fi/luterilaisiavirsia/?numero=724;Jumalan käskyt kymmenen;441770;442796
+725;https://www.lhpk.fi/luterilaisiavirsia/?numero=725;Uskomme yhteen Jumalaan;442797;443221
+726;https://www.lhpk.fi/luterilaisiavirsia/?numero=726;Iloiten puhun nyt Isälleni;443222;444201
+727;https://www.lhpk.fi/luterilaisiavirsia/?numero=727;Herramme Kristus kastettiin ;444202;445437
+728;https://www.lhpk.fi/luterilaisiavirsia/?numero=728;On kansa pyhä, kastettu;445438;447047
+729;https://www.lhpk.fi/luterilaisiavirsia/?numero=729;Kuvasi, oi Jeesus, piirrä;447048;447530
+730;https://www.lhpk.fi/luterilaisiavirsia/?numero=730;Kuolemaan kanssa Kristuksen;447531;447940
+731;https://www.lhpk.fi/luterilaisiavirsia/?numero=731;Isä taivaan kutsuu meidät ;447941;448310
+732;https://www.lhpk.fi/luterilaisiavirsia/?numero=732;Jälleen eteen Jeesuksen;448311;448622
+733;https://www.lhpk.fi/luterilaisiavirsia/?numero=733;Outona, muukalaisena;448623;449709
+734;https://www.lhpk.fi/luterilaisiavirsia/?numero=734;Lasken synnit Jeesukselle;449710;450185
+735;https://www.lhpk.fi/luterilaisiavirsia/?numero=735;On lepopaikka suloinen;450186;450628
+736;https://www.lhpk.fi/luterilaisiavirsia/?numero=736;Riemuitse, Siion! Nouse veisaamaan;450629;452620
+737;https://www.lhpk.fi/luterilaisiavirsia/?numero=737;Kuolemaa Herran Jeesuksen;452621;453476
+738;https://www.lhpk.fi/luterilaisiavirsia/?numero=738;Loistossasi, taivaan Herra;453477;454145
+739;https://www.lhpk.fi/luterilaisiavirsia/?numero=739;Sydän levoton janoaa rauhaa;454146;455760
+740;https://www.lhpk.fi/luterilaisiavirsia/?numero=740;Kuinka enää heikommaksi;455761;456299
+741;https://www.lhpk.fi/luterilaisiavirsia/?numero=741;Jos hento ja pienoinen oksani;456300;456860
+742;https://www.lhpk.fi/luterilaisiavirsia/?numero=742;Tässä, oi Herra, kohtaan kasvosi;456861;457635
+743;https://www.lhpk.fi/luterilaisiavirsia/?numero=743;Meillä on alttari, kiiruhtakaamme;457636;458591
+744;https://www.lhpk.fi/luterilaisiavirsia/?numero=744;Karitsan kiitos iäti;458592;459368
+745;https://www.lhpk.fi/luterilaisiavirsia/?numero=745;Rakas sielu ihanainen;459369;460487
+746;https://www.lhpk.fi/luterilaisiavirsia/?numero=746;Riemuvirren veisaamme;460488;461174
+747;https://www.lhpk.fi/luterilaisiavirsia/?numero=747;Sinua, Jeesus, me tunnustamme;461175;461911
+748;https://www.lhpk.fi/luterilaisiavirsia/?numero=748;Nälkäinen sydän odottaa ;461912;462434
+749;https://www.lhpk.fi/luterilaisiavirsia/?numero=749;Tulkaa te, jotka työtä teette;462435;463332
+750;https://www.lhpk.fi/luterilaisiavirsia/?numero=750;Oi hyvä Jeesus;463333;464122
+751;https://www.lhpk.fi/luterilaisiavirsia/?numero=751;Tähtenä sytyit taivaallemme;464123;465010
+752;https://www.lhpk.fi/luterilaisiavirsia/?numero=752;Hoosianna, hoosianna;465011;466009
+753;https://www.lhpk.fi/luterilaisiavirsia/?numero=753;Oi saavu, saavu, oi Immanuel;466010;467024
+754;https://www.lhpk.fi/luterilaisiavirsia/?numero=754;On Jordan-virran rannalla;467025;467924
+755;https://www.lhpk.fi/luterilaisiavirsia/?numero=755;Jo kohta saapuu Jeesus;467925;468591
+756;https://www.lhpk.fi/luterilaisiavirsia/?numero=756;Niin kuin viisaat itämaan;468592;469194
+757;https://www.lhpk.fi/luterilaisiavirsia/?numero=757;Enkeljoukot taivaan kuorin;469195;469810
+758;https://www.lhpk.fi/luterilaisiavirsia/?numero=758;Mikä on tähti taivaalla;469811;470657
+759;https://www.lhpk.fi/luterilaisiavirsia/?numero=759;Pian päättyy yömme synkkä;470658;471409
+760;https://www.lhpk.fi/luterilaisiavirsia/?numero=760;Riemulla, Siionin lapset, nouskaa;471410;473147
+761;https://www.lhpk.fi/luterilaisiavirsia/?numero=761;Jeesukselle, Herralle;473148;473899
+762;https://www.lhpk.fi/luterilaisiavirsia/?numero=762;In dulci jubilo;473900;474823
+763;https://www.lhpk.fi/luterilaisiavirsia/?numero=763;Taas jouluaika riemuisa;474824;475694
+764;https://www.lhpk.fi/luterilaisiavirsia/?numero=764;Syntyi Isän sydämestä;475695;476994
+765;https://www.lhpk.fi/luterilaisiavirsia/?numero=765;Jeesus on tullut, hän on ilon tuoja;476995;478326
+766;https://www.lhpk.fi/luterilaisiavirsia/?numero=766;Synnytti piltin Beetlehem ;478327;480589
+767;https://www.lhpk.fi/luterilaisiavirsia/?numero=767;Niin kuin jo ammoin luvannut;480590;481155
+768;https://www.lhpk.fi/luterilaisiavirsia/?numero=768;Jeesuksen nimi ainoa;481156;481977
+769;https://www.lhpk.fi/luterilaisiavirsia/?numero=769;On armon vuosi vaipunut;481978;482884
+770;https://www.lhpk.fi/luterilaisiavirsia/?numero=770;Oi rakkaus syvä, ääretön;482885;483521
+771;https://www.lhpk.fi/luterilaisiavirsia/?numero=771;Vapahtajan etehen;483522;484339
+772;https://www.lhpk.fi/luterilaisiavirsia/?numero=772;Aina soikoon kiitos Herran;484340;485004
+773;https://www.lhpk.fi/luterilaisiavirsia/?numero=773;Syvyyttä Isän rakkauden;485005;485521
+774;https://www.lhpk.fi/luterilaisiavirsia/?numero=774;Ei veriuhrit nuo;485522;485881
+775;https://www.lhpk.fi/luterilaisiavirsia/?numero=775;Verinen Vapahtajani;485882;486321
+776;https://www.lhpk.fi/luterilaisiavirsia/?numero=776;On täytetty! Jeesuksen huuto se on;486322;487140
+777;https://www.lhpk.fi/luterilaisiavirsia/?numero=777;Nyt taivaan holvit kaikuvat;487141;487830
+778;https://www.lhpk.fi/luterilaisiavirsia/?numero=778;Kaunis aamuaurinkomme;487831;488555
+779;https://www.lhpk.fi/luterilaisiavirsia/?numero=779;On synnit kaikki poissa;488556;489227
+780;https://www.lhpk.fi/luterilaisiavirsia/?numero=780;Iloinen sydämeni;489228;490355
+781;https://www.lhpk.fi/luterilaisiavirsia/?numero=781;Kaikki kansat, veisatkaa;490356;491585
+782;https://www.lhpk.fi/luterilaisiavirsia/?numero=782;Kielin kaikin veisatkaamme;491586;492561
+783;https://www.lhpk.fi/luterilaisiavirsia/?numero=783;Jeesus Kristus, Vapahtaja;492562;492902
+784;https://www.lhpk.fi/luterilaisiavirsia/?numero=784;Jeesus Kristus tänään nousi;492903;493417
+785;https://www.lhpk.fi/luterilaisiavirsia/?numero=785;Taistelu on nyt taisteltu;493418;493899
+786;https://www.lhpk.fi/luterilaisiavirsia/?numero=786;Nyt koitti päivä valtava;493900;494396
+787;https://www.lhpk.fi/luterilaisiavirsia/?numero=787;Ilon ääni taivaan täytti;494397;495666
+788;https://www.lhpk.fi/luterilaisiavirsia/?numero=788;Maailman kaiken edestä;495667;496072
+789;https://www.lhpk.fi/luterilaisiavirsia/?numero=789;Sä nousit, Jeesus, taivaaseen;496073;496665
+790;https://www.lhpk.fi/luterilaisiavirsia/?numero=790;Jeesus Kristus kuninkaana;496666;497870
+791;https://www.lhpk.fi/luterilaisiavirsia/?numero=791;Rakkaus taivainen;497871;498382
+792;https://www.lhpk.fi/luterilaisiavirsia/?numero=792;Pyhä Henki, kirkkaimmassa;498383;498911
+793;https://www.lhpk.fi/luterilaisiavirsia/?numero=793;Pyhä Henki, Herramme;498912;499898
+794;https://www.lhpk.fi/luterilaisiavirsia/?numero=794;Ylistä, sielu, Herran suuruutta;499899;500396
+795;https://www.lhpk.fi/luterilaisiavirsia/?numero=795;Vapahtajan syntymästä;500397;500869
+796;https://www.lhpk.fi/luterilaisiavirsia/?numero=796;Kun enkeli neidolle ilmestyi;500870;501491
+797;https://www.lhpk.fi/luterilaisiavirsia/?numero=797;On taivaan Isän enkeleillä;501492;501904
+798;https://www.lhpk.fi/luterilaisiavirsia/?numero=798;Joukossa pyhiesi;501905;504816
+799;https://www.lhpk.fi/luterilaisiavirsia/?numero=799;Sinä Herra, kutsuttusi;504817;505340
+800;https://www.lhpk.fi/luterilaisiavirsia/?numero=800;On Siion-vuorella nyt Karitsa;505341;505916
+801;https://www.lhpk.fi/luterilaisiavirsia/?numero=801;Oi Vapahtaja armias;505917;506506
+802;https://www.lhpk.fi/luterilaisiavirsia/?numero=802;Lauluista kaikuen;506507;507061
+803;https://www.lhpk.fi/luterilaisiavirsia/?numero=803;Nyt laulan sydän täynnä iloa;507062;507832
+804;https://www.lhpk.fi/luterilaisiavirsia/?numero=804;Pilvissä saapuu meille Kuninkaamme;507833;508543
+805;https://www.lhpk.fi/luterilaisiavirsia/?numero=805;Ääressä, Herra, sanasi;508544;508960
+806;https://www.lhpk.fi/luterilaisiavirsia/?numero=806;Saavu, Herra Jeesus;508961;509619
+807;https://www.lhpk.fi/luterilaisiavirsia/?numero=807;Jumala, kuule äänemme;509620;510345
+808;https://www.lhpk.fi/luterilaisiavirsia/?numero=808;On Jeesus sanassansa;510346;510822
+809;https://www.lhpk.fi/luterilaisiavirsia/?numero=809;Sanasi, Herra, anna valoksemme;510823;511296
+810;https://www.lhpk.fi/luterilaisiavirsia/?numero=810;On Jeesus Kristus ainut;511297;512353
+811;https://www.lhpk.fi/luterilaisiavirsia/?numero=811;Jumala suuri, annoit profeetat;512354;513171
+812;https://www.lhpk.fi/luterilaisiavirsia/?numero=812;Karitsan lippu viirissä voiton hohtaa;513172;513662
+813;https://www.lhpk.fi/luterilaisiavirsia/?numero=813;Oi Jeesus, sinä olet pää;513663;514634
+814;https://www.lhpk.fi/luterilaisiavirsia/?numero=814;Niin kuin aurinko loistossaan;514635;515125
+815;https://www.lhpk.fi/luterilaisiavirsia/?numero=815;Oi taivaallinen Isä;515126;515534
+816;https://www.lhpk.fi/luterilaisiavirsia/?numero=816;Faaraon vaunut kun saapuivat rantaan;515535;516179
+817;https://www.lhpk.fi/luterilaisiavirsia/?numero=817;Kiitetty nimi Jeesuksen;516180;516589
+818;https://www.lhpk.fi/luterilaisiavirsia/?numero=818;Jos Jumala ei rakenna;516590;517401
+819;https://www.lhpk.fi/luterilaisiavirsia/?numero=819;Levitköön maailmaan;517402;518608
+820;https://www.lhpk.fi/luterilaisiavirsia/?numero=820;Karitsan lippu johtaa joukkoamme;518609;519557
+821;https://www.lhpk.fi/luterilaisiavirsia/?numero=821;Miksi vieläkin torjuisit rakkauteni;519558;520784
+822;https://www.lhpk.fi/luterilaisiavirsia/?numero=822;On Jeesus lunastuksen jo täysin täyttänyt;520785;522262
+823;https://www.lhpk.fi/luterilaisiavirsia/?numero=823;Pois, maailma, pois;522263;524536
+824;https://www.lhpk.fi/luterilaisiavirsia/?numero=824;Sinua rakastaa vain tahdon;524537;525411
+825;https://www.lhpk.fi/luterilaisiavirsia/?numero=825;Korkeus, syvyys kaikukoot;525412;525988
+826;https://www.lhpk.fi/luterilaisiavirsia/?numero=826;Oi Jeesus Kristus, elämän ja virvoituksen lähde;525989;527504
+827;https://www.lhpk.fi/luterilaisiavirsia/?numero=827;Veri Jeesuksen;527505;528247
+828;https://www.lhpk.fi/luterilaisiavirsia/?numero=828;Herra Jeesus verellänsä;528248;529202
+829;https://www.lhpk.fi/luterilaisiavirsia/?numero=829;Sinun luoksesi, sinun veljeksesi;529203;529946
+830;https://www.lhpk.fi/luterilaisiavirsia/?numero=830;Elämän puu toi hyvyyden;529947;530882
+831;https://www.lhpk.fi/luterilaisiavirsia/?numero=831;On sydämeni kelvoton;530883;531768
+832;https://www.lhpk.fi/luterilaisiavirsia/?numero=832;Jeesus meitä opettaa;531769;532743
+833;https://www.lhpk.fi/luterilaisiavirsia/?numero=833;Armosta tulen autuaaksi;532744;534007
+834;https://www.lhpk.fi/luterilaisiavirsia/?numero=834;Toivoni on Jumalassa;534008;534604
+835;https://www.lhpk.fi/luterilaisiavirsia/?numero=835;Suullani, sydämelläni;534605;535929
+836;https://www.lhpk.fi/luterilaisiavirsia/?numero=836;Jeesuksen ääntä kuuntelin;535930;536381
+837;https://www.lhpk.fi/luterilaisiavirsia/?numero=837;Ikuinen Isä taivaastaan;536382;537555
+838;https://www.lhpk.fi/luterilaisiavirsia/?numero=838;Silmäni ole ja sydämeni;537556;538188
+839;https://www.lhpk.fi/luterilaisiavirsia/?numero=839;Jumala muinoin puhui isille;538189;539293
+840;https://www.lhpk.fi/luterilaisiavirsia/?numero=840;Soi lauluni kiitosta Herralle vain;539294;539992
+841;https://www.lhpk.fi/luterilaisiavirsia/?numero=841;Lunastajamme Kristus ;539993;540563
+842;https://www.lhpk.fi/luterilaisiavirsia/?numero=842;Nyt ylistystä veisatkaa;540564;540993
+843;https://www.lhpk.fi/luterilaisiavirsia/?numero=843;Me ylistämme sinua;540994;541856
+844;https://www.lhpk.fi/luterilaisiavirsia/?numero=844;Tunnusta, ylistä, isien Jumalaa;541857;543087
+845;https://www.lhpk.fi/luterilaisiavirsia/?numero=845;Jeesuksen nimen kunniaa;543088;543989
+846;https://www.lhpk.fi/luterilaisiavirsia/?numero=846;Nimeen pyhän Jumalan;543990;545226
+847;https://www.lhpk.fi/luterilaisiavirsia/?numero=847;Kunnian kruunua nyt kantaa Karitsa;545227;546139
+848;https://www.lhpk.fi/luterilaisiavirsia/?numero=848;Soi virteni kiitosta Herran;546140;546881
+849;https://www.lhpk.fi/luterilaisiavirsia/?numero=849;Jesaja-profeetalle tapahtui;546882;547361
+850;https://www.lhpk.fi/luterilaisiavirsia/?numero=850;Riemuitkaa, kristityt;547362;547993
+851;https://www.lhpk.fi/luterilaisiavirsia/?numero=851;Herrassa, sydän iloiten;547994;548921
+852;https://www.lhpk.fi/luterilaisiavirsia/?numero=852;On laupeus tullut osakseni;548922;549804
+853;https://www.lhpk.fi/luterilaisiavirsia/?numero=853;Nyt kiitos Herran Jeesuksen;549805;550522
+854;https://www.lhpk.fi/luterilaisiavirsia/?numero=854;Nyt tulkaa kaikki laulamaan;550523;551540
+855;https://www.lhpk.fi/luterilaisiavirsia/?numero=855;Kiitämme Herraa Jeesusta;551541;552295
+856;https://www.lhpk.fi/luterilaisiavirsia/?numero=856;Käyn maailmassa vaaroissa;552296;553167
+857;https://www.lhpk.fi/luterilaisiavirsia/?numero=857;Käy silloin kaikkein parhaiten;553168;554193
+858;https://www.lhpk.fi/luterilaisiavirsia/?numero=858;Ohjaa minut, Jumalani;554194;554650
+859;https://www.lhpk.fi/luterilaisiavirsia/?numero=859;Jeesuksessa työsi tee;554651;555325
+860;https://www.lhpk.fi/luterilaisiavirsia/?numero=860;Taas tänään ole apuni;555326;555908
+861;https://www.lhpk.fi/luterilaisiavirsia/?numero=861;Jumalan tiet on salatut ;555909;556350
+862;https://www.lhpk.fi/luterilaisiavirsia/?numero=862;Minua aina johtaa hän;556351;556838
+863;https://www.lhpk.fi/luterilaisiavirsia/?numero=863;Niin käy kuin tahtoo Jumala;556839;557498
+864;https://www.lhpk.fi/luterilaisiavirsia/?numero=864;Sun alttarisi juurehen;557499;557866
+865;https://www.lhpk.fi/luterilaisiavirsia/?numero=865;On Herra puolellani;557867;559564
+866;https://www.lhpk.fi/luterilaisiavirsia/?numero=866;Iloitse, sielu, vaivoissa;559565;560858
+867;https://www.lhpk.fi/luterilaisiavirsia/?numero=867;Kun sydämeni, mieleni;560859;562223
+868;https://www.lhpk.fi/luterilaisiavirsia/?numero=868;Miksi surra ristin tuskaa;562224;563437
+869;https://www.lhpk.fi/luterilaisiavirsia/?numero=869;Käy tiemme kautta ahdingon;563438;563846
+870;https://www.lhpk.fi/luterilaisiavirsia/?numero=870;Lähemmäs sinua, Jumalani;563847;564334
+871;https://www.lhpk.fi/luterilaisiavirsia/?numero=871;Taas, Herra, lähellesi;564335;564772
+872;https://www.lhpk.fi/luterilaisiavirsia/?numero=872;Oi varjele, Jeesus, ja johdata;564773;565377
+873;https://www.lhpk.fi/luterilaisiavirsia/?numero=873;Hyvyyden voimat aina ympärillä;565378;566159
+874;https://www.lhpk.fi/luterilaisiavirsia/?numero=874;Jokainen raskas uhkan yö;566160;566854
+875;https://www.lhpk.fi/luterilaisiavirsia/?numero=875;Lammas olen Jeesuksen;566855;567273
+876;https://www.lhpk.fi/luterilaisiavirsia/?numero=876;Onpa taivaassa tallella lapsillekin;567274;567919
+877;https://www.lhpk.fi/luterilaisiavirsia/?numero=877;Kenen asumus on taivaassa;567920;568452
+878;https://www.lhpk.fi/luterilaisiavirsia/?numero=878;Jeesuksen luokse aina tulla saan;568453;569087
+879;https://www.lhpk.fi/luterilaisiavirsia/?numero=879;Nyt eteen armoistuimen;569088;570336
+880;https://www.lhpk.fi/luterilaisiavirsia/?numero=880;Nyt päivä nousee ylös idän rantaa;570337;571342
+881;https://www.lhpk.fi/luterilaisiavirsia/?numero=881;Kun aamu sarastaa;571343;572269
+882;https://www.lhpk.fi/luterilaisiavirsia/?numero=882;Poistui pimeys ja kauhu;572270;572882
+883;https://www.lhpk.fi/luterilaisiavirsia/?numero=883;Huomassa Herran elää saan;572883;573535
+884;https://www.lhpk.fi/luterilaisiavirsia/?numero=884;On päivän aika mennä;573536;574459
+885;https://www.lhpk.fi/luterilaisiavirsia/?numero=885;On päättynyt päivä;574460;575027
+886;https://www.lhpk.fi/luterilaisiavirsia/?numero=886;Taas laulan Herran kunniaa;575028;575933
+887;https://www.lhpk.fi/luterilaisiavirsia/?numero=887;Aurinko armas laskeutuu;575934;576697
+888;https://www.lhpk.fi/luterilaisiavirsia/?numero=888;On kaunein koru, suurin aarteeni ;576698;577191
+889;https://www.lhpk.fi/luterilaisiavirsia/?numero=889;Auringon länteen painuessa;577192;578156
+890;https://www.lhpk.fi/luterilaisiavirsia/?numero=890;Siis nouse, mun henkeni, taivaaseen;578157;578912
+891;https://www.lhpk.fi/luterilaisiavirsia/?numero=891;Isälle kiitosvirttä nyt ryhdyn laulamaan;578913;579783
+892;https://www.lhpk.fi/luterilaisiavirsia/?numero=892;Autuas lapsi! Hän lähti niin varhain;579784;580409
+893;https://www.lhpk.fi/luterilaisiavirsia/?numero=893;Ikuisen tunnen isänmaan;580410;581180
+894;https://www.lhpk.fi/luterilaisiavirsia/?numero=894;Nyt ylös, sieluni;581181;583442
+895;https://www.lhpk.fi/luterilaisiavirsia/?numero=895;Kun kodin kauniin taivaisen;583443;584425
+896;https://www.lhpk.fi/luterilaisiavirsia/?numero=896;Herra, kirkkaudessasi;584426;585077
+897;https://www.lhpk.fi/luterilaisiavirsia/?numero=897;Saan omin silmin minäkin;585078;585835
