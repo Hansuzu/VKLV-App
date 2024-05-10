@@ -3,6 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorNeutral">#CCCCCC</color>
     <color name="button_not_pressed">#555555</color>
     <color name="button_pressed">#222222</color>
+    <color name="light_button_pressed">#555555</color>
+    <color name="light_button_active">#ffffff</color>
+    <color name="light_button_inactive">#000000</color>
+    <color name="light_button_disabled">#777777</color>
+    <color name="dark_button_pressed">#777777</color>
+    <color name="dark_button_disabled">#cccccc</color>
+    <color name="dark_button_active">#000000</color>
+    <color name="dark_button_inactive">#dddddd</color>
 </resources>
