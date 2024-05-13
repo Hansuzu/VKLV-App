@@ -1,5 +1,6 @@
 package com.jp.vklv;
 
+import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,10 +18,9 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Random;
 
 import androidx.core.content.ContextCompat;
@@ -35,6 +35,8 @@ public class MainActivity extends ListActivity {
     int buildingCachePos = 0;
     boolean filterFavourites = false;
     int filterCached = 0;
+
+    Toast toast = null;
 
     public class vRef extends Object {
         int vi;
@@ -56,7 +58,12 @@ public class MainActivity extends ListActivity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             TextView v = (TextView) super.getView(position, convertView, parent);
-            if (getItem(position).favourite()) v.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.heart,0);
+            /*
+            v.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.heart,0);
+            if (getItem(position).favourite()) v.getCompoundDrawables()[2].setTint(0xff000000);
+            else  v.getCompoundDrawables()[2].setTint(0x0f000000);
+            */
+            if (getItem(position).favourite())  v.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.heart,0);
             else v.setCompoundDrawablesWithIntrinsicBounds(0,0,0,0);
             return v;
         }
@@ -158,19 +165,31 @@ public class MainActivity extends ListActivity {
                 continueBuildingCache();
             }
         } else if (s.startsWith("uncache:")) {
-            String n = s.substring(13);
-            boolean found = false;
-            boolean removed = false;
-            for (int i = 0; i < VData.vdb.size() && !found; ++i) {
-                if (VData.vdb.get(i).no.equals(n)) {
-                    found = true;
-                    removed = VData.uncache(this, i);
-                    break;
+            String first = s.substring(8);
+            String last = first;
+            for (int i=8; i<s.length(); ++i) {
+                if (s.charAt(i)=='-') {
+                    first = s.substring(8, i);
+                    last = s.substring(i+1);
                 }
             }
-            if (!found) et.setText("uncache failed: no match for '" + n + "'");
-            else if (!removed) et.setText("uncache did nothing: cache file not found.");
-            else et.setText("uncache: succesfully removed cache file.");
+            Log.d(TAG, "remove "+first+" "+last);
+            int ifirst = -1;
+            int ilast = -1;
+            for (int i = 0; i < VData.vdb.size(); ++i) {
+                if (VData.vdb.get(i).no.equals(first)) ifirst = i;
+                if (VData.vdb.get(i).no.equals(last)) ilast = i;
+            }
+            if (ifirst!=-1 && ilast !=-1) {
+                int removed = 0;
+                int notRemoved = 0;
+                for (int i = ifirst; i <= ilast; ++i) {
+                    if (VData.uncache(this, i)) ++removed;
+                    else ++notRemoved;
+                }
+                et.setText("uncache: removed "+removed+" files, did not remove "+notRemoved+" files.");
+            } else et.setText("uncache failed: no match for '" + s.substring(13) + "'");
+
         } else if (s.equals("rng")) {
             open(new Random().nextInt(VData.vdb.size()));
         } else if (s.equals("rng2")) {
@@ -178,6 +197,18 @@ public class MainActivity extends ListActivity {
             for (int i=0; i<VData.vdb.size(); ++i) if (VData.vdb.get(i).favourite) ++nb;
             int n = new Random().nextInt(nb);
             for (int i=0; i<VData.vdb.size(); ++i) if (VData.vdb.get(i).favourite) if (n--==0) open(i);
+        } else if (s.startsWith("export:")) {
+            if (s.equals("export:all")) {
+                tryExportCacheAndFavourites(true, true);
+            } else if (s.equals("export:cache")) {
+                tryExportCacheAndFavourites(true, false);
+            } else if (s.equals("export:favourites")) {
+                tryExportCacheAndFavourites(false, true);
+            }
+        } else if (s.startsWith("import:")) {
+            if (s.equals("import:all")) {
+                tryImportCacheAndFavourites();
+            }
         }
 
         filter(s+" ");
@@ -195,6 +226,15 @@ public class MainActivity extends ListActivity {
     boolean filterFavouritesButtonClicked() {
         filterFavourites = !filterFavourites;
         setFilterFavouritesButtonStyle();
+        if (filterFavourites) {
+            if (toast!=null) toast.cancel();
+            toast = Toast.makeText(this, "Näytetään suosikit.", Toast.LENGTH_SHORT);
+            toast.show();
+        } else {
+            if (toast!=null) toast.cancel();
+            toast = Toast.makeText(this, "Näytetään kaikki.", Toast.LENGTH_SHORT);
+            toast.show();
+        }
         refilter();
         return true;
     }
@@ -216,6 +256,17 @@ public class MainActivity extends ListActivity {
         filterCached += 1;
         if (filterCached>=3) filterCached = 0;
         setFilterCachedButtonStyle();
+        if (toast!=null) toast.cancel();
+        if (filterCached == 0) {
+            toast = Toast.makeText(this, "Näytetään kaikki", Toast.LENGTH_SHORT);
+            toast.show();
+        } else if (filterCached == 1){
+            toast = Toast.makeText(this, "Näytetään offline-tilaan tallennetut.", Toast.LENGTH_SHORT);
+            toast.show();
+        } else {
+            toast = Toast.makeText(this, "Näytetään offline-tilaan tallentamattomat.", Toast.LENGTH_SHORT);
+            toast.show();
+        }
         refilter();
         return true;
     }
@@ -224,6 +275,7 @@ public class MainActivity extends ListActivity {
         long start = System.currentTimeMillis();
         VData.loadVDB(this);
         super.onCreate(savedInstanceState);
+        VData.createSettings(this);
 
         setContentView(R.layout.main);
 
@@ -245,6 +297,14 @@ public class MainActivity extends ListActivity {
 
         ((ListView)findViewById(android.R.id.list)).setOnItemLongClickListener((parent, view, position, id) -> {
             VData.toggleFavourite(this, listItems.get(position).vi);
+            if (toast != null) toast.cancel();
+            if (VData.vdb.get(listItems.get(position).vi).favourite) {
+                toast = Toast.makeText(this, "Virsi lisätty suosikkeihin.", Toast.LENGTH_SHORT);
+                toast.show();
+            } else {
+                toast = Toast.makeText(this, "Virsi poistettu suosikeista.", Toast.LENGTH_SHORT);
+                toast.show();
+            }
             adapter.notifyDataSetChanged();
             //*/
             return true;
@@ -299,6 +359,11 @@ public class MainActivity extends ListActivity {
     protected void onPause() {
         showKeyboardOnResume = checkKeyboard();
         if (!showKeyboardOnResume) et.clearFocus();
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
         super.onPause();
     }
 
@@ -318,5 +383,56 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View w, int position, long id) {
         open(listItems.get(position).vi);
+    }
+
+    static int OPEN_SAVED_DATA_REQUEST_CODE = 1;
+    static int SAVE_DATA_ALL_REQUEST_CODE = 2;
+    static int SAVE_DATA_CACHE_REQUEST_CODE = 3;
+    static int SAVE_DATA_FAVOURITES_REQUEST_CODE = 4;
+    private void tryImportCacheAndFavourites() {
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        intent.setType("application/zip");
+        startActivityForResult(Intent.createChooser(intent,"Valitse tiedosto"), OPEN_SAVED_DATA_REQUEST_CODE);
+    }
+    private void tryExportCacheAndFavourites(boolean cache, boolean favourites) {
+        if (!cache && !favourites) return;
+        Intent intent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION);
+        intent.setType("application/zip");
+        int CODE = SAVE_DATA_ALL_REQUEST_CODE;
+        if (cache && favourites) intent.putExtra(Intent.EXTRA_TITLE, "vklv_data.zip");
+        else if (favourites) {
+            intent.putExtra(Intent.EXTRA_TITLE, "vklv_data_favourites.zip");
+            CODE = SAVE_DATA_FAVOURITES_REQUEST_CODE;
+        } else if (cache) {
+            intent.putExtra(Intent.EXTRA_TITLE, "vklv_data_cached.zip");
+            CODE = SAVE_DATA_CACHE_REQUEST_CODE;
+        }
+        startActivityForResult(Intent.createChooser(intent,"Valitse tiedosto"), CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == OPEN_SAVED_DATA_REQUEST_CODE) {
+            if (resultCode == Activity.RESULT_OK) {
+                if (data != null && data.getData() != null) {
+                    int nbf = VData.loadCacheAndFavourites(this, data.getData());
+                    et.setText("import: imported "+nbf+" files from zip");
+                    refilter();
+                }
+            }
+        } else if (requestCode == SAVE_DATA_ALL_REQUEST_CODE || requestCode == SAVE_DATA_CACHE_REQUEST_CODE || requestCode == SAVE_DATA_FAVOURITES_REQUEST_CODE) {
+            if (resultCode == Activity.RESULT_OK) {
+                if (data != null && data.getData() != null) {
+                    boolean cache = (requestCode == SAVE_DATA_ALL_REQUEST_CODE || requestCode == SAVE_DATA_CACHE_REQUEST_CODE);
+                    boolean favourites = (requestCode == SAVE_DATA_ALL_REQUEST_CODE || requestCode == SAVE_DATA_FAVOURITES_REQUEST_CODE);
+                    int nbf = VData.saveCacheAndFavourites(this, data.getData(), cache, favourites);
+                    et.setText("export: created zip file with "+nbf+" files");
+                }
+            }
+        }
     }
 }

@@ -1,8 +1,11 @@
 package com.jp.vklv;
 
 import android.content.Context;
+import android.net.Uri;
 import android.util.Log;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,6 +22,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
+
+import androidx.datastore.preferences.core.MutablePreferences;
+import androidx.datastore.preferences.core.Preferences;
+import androidx.datastore.preferences.core.PreferencesKeys;
+import androidx.datastore.preferences.rxjava2.RxPreferenceDataStoreBuilder;
+import androidx.datastore.rxjava2.RxDataStore;
+import io.reactivex.Flowable;
+import io.reactivex.Single;
 
 public class VData {
     static String TAG = "VK+LV:VData";
@@ -60,7 +74,7 @@ public class VData {
         }
     }
     public static ArrayList<VDBE> vdb = new ArrayList<>();
-    static String webArchiveFile(Context context, String id) {
+    static String getWebArchiveFileName(Context context, String id) {
         return context.getCacheDir() + "/" + id + ".mht";
     }
     static String favouritesFileName(Context context) {return context.getFilesDir()+"/favourites"; }
@@ -71,6 +85,10 @@ public class VData {
         File[] files = context.getCacheDir().listFiles();
         HashSet<String> fln = new HashSet<>();
         for (int i=0; i<files.length; ++i) {
+            if (files[i].length() == 0) {
+                files[i].delete();
+                continue;
+            }
             fln.add(files[i].getName());
         }
         int mismatches = 0;
@@ -225,7 +243,7 @@ public class VData {
         Log.d(TAG, "setRAFBit took "+(System.currentTimeMillis()-start)/1000.0 + " seconds");
     }
     static boolean uncache(Context context, int i) {
-        String fn = webArchiveFile(context, vdb.get(i).no);
+        String fn = getWebArchiveFileName(context, vdb.get(i).no);
         File f = new File(fn);
         if (f.exists()) {
             f.delete();
@@ -485,6 +503,7 @@ public class VData {
         Log.d(TAG, "cached pages info checked in "+((System.currentTimeMillis()-start)/1000.0)+" seconds, "+mismatches+" mismatches.");
     }
     static void loadVDB(Context context) {
+        if (!vdb.isEmpty()) return;
         long start = System.currentTimeMillis();
         vdb.ensureCapacity(1000);
         int sz = 84640;
@@ -522,5 +541,142 @@ public class VData {
             if (vdb.get(i).url.equals(url)) return i;
         }
         return -1;
+    }
+
+    static byte[] bbuffer = null;
+    static void zipFile(ZipOutputStream zout, String fname, String nameInZip) {
+        if (bbuffer == null) bbuffer = new byte[8192];
+        try {
+            ZipEntry zipEntry = new ZipEntry(nameInZip);
+            FileInputStream fin = new FileInputStream(fname);
+            zout.putNextEntry(zipEntry);
+            int n;
+            while ((n = fin.read(bbuffer)) != -1)  zout.write(bbuffer, 0, n);
+            zout.closeEntry();
+            fin.close();
+        } catch (Exception e) {
+            Log.d(TAG, "zip file failed, "+e);
+        }
+    }
+    static int saveCacheAndFavourites(Context context, Uri uri, boolean cache, boolean favourites) {
+        int nbf = 0;
+        try {
+            ZipOutputStream zout = new ZipOutputStream(new BufferedOutputStream(context.getContentResolver().openOutputStream(uri)));
+            if (favourites) {
+                zipFile(zout, favouritesFileName(context), "favourites");
+                ++nbf;
+            }
+            if (cache) {
+                for (int i = 0; i < vdb.size(); ++i) {
+                    if (vdb.get(i).cached) {
+                        zipFile(zout, getWebArchiveFileName(context, vdb.get(i).no), vdb.get(i).no + ".mht");
+                        ++nbf;
+                    }
+                }
+            }
+            zout.close();
+            Log.d(TAG, "saved to "+uri);
+        } catch (Exception e) {
+            Log.d(TAG, "exception, "+e);
+        }
+        return nbf;
+    }
+
+
+    static void unzipFile(ZipInputStream zin, String fname) {
+        if (bbuffer == null) bbuffer = new byte[8192];
+        try {
+            FileOutputStream fout = new FileOutputStream(fname);
+            int n;
+            while ((n = zin.read(bbuffer)) != -1) fout.write(bbuffer, 0, n);
+            zin.closeEntry();
+            fout.close();
+        } catch (Exception e) {
+            Log.d(TAG, "unzip file failed, "+e);
+        }
+    }
+    static int matchingCacheFile(Context context, String name) {
+        // return internal file name that matches to saved file 'name'
+        if (name.endsWith(".mht")) {
+            for (int i=0; i<vdb.size(); ++i) {
+                if (name.equals(vdb.get(i).no+".mht")) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+    static int loadCacheAndFavourites(Context context, Uri uri) {
+        int nbf = 0;
+        try {
+            ZipInputStream zin = new ZipInputStream(new BufferedInputStream(context.getContentResolver().openInputStream(uri)));
+            while (true) {
+                try {
+                    ZipEntry ze = zin.getNextEntry();
+                    if (ze == null) break;
+                    String t = ze.getName().toString();
+                    String of;
+                    int type = 0;
+                    int id = -1;
+                    if (t.equals("favourites")) {
+                        of = favouritesFileName(context);
+                    } else {
+                        id = matchingCacheFile(context, t);
+                        if (id<0) {
+                            Log.d(TAG, "undetected file: "+ze.getName().toString());
+                            continue;
+                        }
+                        type = 1;
+                        of = getWebArchiveFileName(context, vdb.get(id).no);
+                    }
+                    Log.d(TAG, "detected file: "+of);
+                    unzipFile(zin, of);
+                    ++nbf;
+                    if (type == 0) {
+                        loadFavourites(context);
+                    } else if (type == 1) {
+                        cached(context, id);
+                    }
+                } catch (Exception e) {
+                    Log.d(TAG, "unzip failed "+e);
+                    break;
+                }
+            }
+            zin.close();
+            Log.d(TAG, "loaded from "+uri);
+        } catch (Exception e) {
+            Log.d(TAG, "exception, "+e.toString());
+        }
+        return nbf;
+    }
+
+
+    static RxDataStore<Preferences> dataStore = null;
+    static void createSettings(Context context) {
+        if (dataStore == null) {
+            dataStore = new RxPreferenceDataStoreBuilder(context, "settings").build();
+        }
+    }
+    static void setIntValueToSettings(String key, int value) {
+        Preferences.Key<Integer> KEY = PreferencesKeys.intKey(key);
+        dataStore.updateDataAsync(prefsIn -> {
+            MutablePreferences mutablePreferences = prefsIn.toMutablePreferences();
+            mutablePreferences.set(KEY, value);
+            return Single.just(mutablePreferences);
+        });
+    }
+    static int getIntSetting(String key, int defaultValue) {
+        Preferences.Key<Integer> KEY = PreferencesKeys.intKey(key);
+        Single<Integer> value = dataStore.data().firstOrError().map(prefs -> prefs.get(KEY)).onErrorReturnItem(defaultValue);
+        return value.blockingGet();
+    }
+
+    static void deleteIntSetting(String key) {
+        Preferences.Key<Integer> KEY = PreferencesKeys.intKey(key);
+        dataStore.updateDataAsync(prefsIn -> {
+            MutablePreferences mutablePreferences = prefsIn.toMutablePreferences();
+            mutablePreferences.remove(KEY);
+            return Single.just(mutablePreferences);
+        });
     }
 }

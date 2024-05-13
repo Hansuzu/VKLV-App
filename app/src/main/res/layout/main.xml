@@ -4,71 +4,74 @@
     android:layout_height="match_parent">
 
 
-<LinearLayout
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-
-
-        <EditText
-            android:id="@+id/editText"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textFilter"
-            android:imeOptions="actionDone"
-            android:singleLine="true"
-            android:focusable="true"
-            android:gravity="start"
-            android:paddingRight="70dp"
-            android:focusableInTouchMode="true"
-            android:hint="Kirjoita virren numero tai hae sanoja..." />
+            android:orientation="horizontal">
 
 
-        <ImageButton
-            android:id="@+id/clearText"
-            style="?android:buttonBarButtonStyle"
-            android:src="@drawable/backspace"
-            android:layout_marginLeft="-70dp"
-            android:layout_width="wrap_content"
-            android:layout_weight="0"
-            android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textFilter"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:focusable="true"
+                android:gravity="start"
+                android:paddingRight="70dp"
+                android:layout_marginTop="15dp"
+                android:focusableInTouchMode="true"
+                android:hint="Kirjoita virren numero tai hae sanoja..." />
+
+
+            <ImageButton
+                android:id="@+id/clearText"
+                style="?android:buttonBarButtonStyle"
+                android:src="@drawable/backspace"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="50dp"
+            android:fastScrollEnabled="true"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
-    <ListView
-        android:id="@android:id/list"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:paddingBottom="50dp"
-        android:layout_height="wrap_content" />
 
-</LinearLayout>
-
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|end">
-
-    <ImageButton
-        android:id="@+id/filterCached"
-        style="?android:buttonBarButtonStyle"
-        android:src="@drawable/content_save"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end">
 
-    <ImageButton
-        android:id="@+id/filterFavourites"
-        style="?android:buttonBarButtonStyle"
-        android:src="@drawable/heart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        <ImageButton
+            android:id="@+id/filterCached"
+            style="?android:buttonBarButtonStyle"
+            android:src="@drawable/content_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/filterFavourites"
+            style="?android:buttonBarButtonStyle"
+            android:src="@drawable/heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 </FrameLayout>
