@@ -502,6 +502,19 @@ public class VData {
         if (mismatches>0) saveCacheInfo(context);
         Log.d(TAG, "cached pages info checked in "+((System.currentTimeMillis()-start)/1000.0)+" seconds, "+mismatches+" mismatches.");
     }
+
+    static public class Section {
+        int tp;
+        String title;
+        int index;
+        Section(int tp, String title, int index) {
+            this.tp = tp;
+            this.title = title;
+            this.index = index;
+        }
+    }
+    static ArrayList<Section> sections = new ArrayList<>();
+
     static void loadVDB(Context context) {
         if (!vdb.isEmpty()) return;
         long start = System.currentTimeMillis();
@@ -532,6 +545,35 @@ public class VData {
                 b*=10; b+=s[i]-'0';
             }
         }
+
+        int n = 0;
+        try {
+            n = context.getResources().openRawResource(R.raw.sections).read(s, 0, sz);
+        } catch (IOException e) { }
+
+        char tp = ' ';
+        String title = "";
+        int ix = 0;
+        p=0;
+        for (int i=0; i<n; ++i) {
+            if (s[i]==';') {
+                if (p==0) {
+                    tp = (char)(s[i-1]);
+                    j=i+1;
+                }
+                if (p==1) {
+                    title = new String(s, j, i-j, Charset.defaultCharset());
+                }
+                ++p;
+            }else if (s[i]=='\n') {
+                sections.add(new Section(tp-'0', title, ix));
+                ix=0;
+                p=0;
+            } else if (p==2) {
+                ix*=10;  ix+=s[i]-'0';
+            }
+        }
+
         new Thread(() -> loadVDBIndexAndCheckCacheInfo(context)).start();
         Log.d(TAG, "VDB loaded in "+((System.currentTimeMillis()-start)/1000.0)+" seconds");
     }

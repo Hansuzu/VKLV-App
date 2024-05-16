@@ -1,5 +1,7 @@
 package com.jp.vklv;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -48,6 +50,11 @@ public class ShowActivity extends AppCompatActivity {
 
     EditText urlBar;
 
+    void toastMessage(String message){
+        if (toast != null) toast.cancel();
+        toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        toast.show();
+    }
     private void saveCurrentViewToCache(boolean callPageActuallyloaded) {
         wv.saveWebArchive(VData.getWebArchiveFileName(this, VData.vdb.get(index).no), false, v -> {
             if (callPageActuallyloaded) pageActuallyLoaded();
@@ -67,7 +74,7 @@ public class ShowActivity extends AppCompatActivity {
         if (returnOnLoaded) {
             finish();
         }
-        hideUrlBarAfter(1000, true);
+        hideUrlBarAfter(500, true);
     }
     void pageLoadFinished() {
         if (loadedFromCacheFile) {
@@ -106,15 +113,12 @@ public class ShowActivity extends AppCompatActivity {
     }
     private void saveButtonClicked() {
         if (index<0) return;
-        if (toast != null) toast.cancel();
         if (VData.vdb.get(index).cached) {
-            toast = Toast.makeText(this, "Sivun offline-tallennus poistettu.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Sivun offline-tallennus poistettu.");
             VData.uncache(this, index);
         } else {
             saveCurrentViewToCache(false);
-            toast = Toast.makeText(this, "Sivu tallennettu offline-tilassa käytettäväksi.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Sivu tallennettu offline-tilassa käytettäväksi.");
         }
         setSaveButtonStyle();
     }
@@ -129,13 +133,10 @@ public class ShowActivity extends AppCompatActivity {
     private void favouriteButtonClicked() {
         if (index<0) return;
         VData.toggleFavourite(this, index);
-        if (toast != null) toast.cancel();
         if (VData.vdb.get(index).favourite) {
-            toast = Toast.makeText(this, "Virsi lisätty suosikkeihin.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Virsi lisätty suosikkeihin.");
         } else {
-            toast = Toast.makeText(this, "Virsi poistettu suosikeista.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Virsi poistettu suosikeista.");
         }
         setFavouriteButtonStyle();
     }
@@ -277,12 +278,19 @@ public class ShowActivity extends AppCompatActivity {
 
     boolean motionCanRefresh;
     float motionCanRefreshY;
+    long p1, p2, p3;
+    float m1, m2, m3;
     @Override
     public boolean dispatchTouchEvent(MotionEvent e) {
         float showLeft = 0;
         float showRight = 0;
         float showTop = 0;
         if (e.getAction() == MotionEvent.ACTION_DOWN) {
+            long t = System.nanoTime();
+            p1=p2;
+            p2=p3;
+            p3=t;
+
             motionStartX = e.getRawX();
             motionStartY = e.getRawY();
             if (wv.getScrollY()==0) {
@@ -312,6 +320,7 @@ public class ShowActivity extends AppCompatActivity {
                 }
             } else if (motionCanRefresh && dy>0) {
                 Log.d(TAG, "Motion can refresh");
+                hideUrlBarAfter(2500, true);
                 dy = e.getRawY() - motionCanRefreshY;
                 if (e.getAction() == MotionEvent.ACTION_MOVE) {
                     showTop = dy>=threshold?1:dy/threshold;
@@ -319,14 +328,39 @@ public class ShowActivity extends AppCompatActivity {
                     refreshButtonClicked();
                 }
             }
+            if (e.getAction() == MotionEvent.ACTION_UP) {
+                // check double click
+                long t1 = (System.nanoTime() - p2)/1000000;
+                // check triple click
+                long t2 = (System.nanoTime() - p1)/1000000;
+                float moved2 = dx*dx+dy*dy;
+                m1=m2;
+                m2=m3;
+                m3 = moved2;
+                if (index>=0 && m3<=50) {
+                    if (t1<400 && !VData.vdb.get(index).favourite && m2<=50) {
+                        favouriteButtonClicked();
+                    } if (t2<600 && VData.vdb.get(index).favourite && m2<=50 && m1<=50) {
+                        favouriteButtonClicked();
+                    }
+                }
+            }
         }
         ghv.setFullness(showLeft, showTop, showRight);
         return super.dispatchTouchEvent(e);
     }
 
+
     void openInBrowserClicked() {
         final Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(((EditText)findViewById(R.id.urlbar)).getText().toString()));
         startActivity(intent);
+    }
+    boolean openInBrowserClickedLong() {
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        ClipData clip = ClipData.newPlainText("url",((EditText)findViewById(R.id.urlbar)).getText());
+        clipboard.setPrimaryClip(clip);
+        toastMessage("Osoite kopioitu leikepöydälle.");
+        return true;
     }
     int urli = 0;
     boolean urlContainerHidden = false;
@@ -376,7 +410,7 @@ public class ShowActivity extends AppCompatActivity {
         setContentView(R.layout.activity_show);
         wv = findViewById(R.id.webview);
         wv.setOnScrollChangeListener((v, scrollX, scrollY, oldScrollX, oldScrollY) -> {
-            if (scrollY==0) hideUrlBarAfter(3500, true);
+            if (scrollY==0) hideUrlBarAfter(2500, true);
             else            hideUrlBarAfter(0, false);
         });
 
@@ -393,11 +427,12 @@ public class ShowActivity extends AppCompatActivity {
 
         findViewById(R.id.saveButton).setOnClickListener(v -> saveButtonClicked());
         findViewById(R.id.favouriteButton).setOnClickListener(v -> favouriteButtonClicked());
-        findViewById(R.id.refreshButton).setOnClickListener(v -> refreshButtonClicked());
+        //findViewById(R.id.refreshButton).setOnClickListener(v -> refreshButtonClicked());
 
         findViewById(R.id.increaseFontSize).setOnClickListener(v -> increaseFontSizeButtonClicked());
         findViewById(R.id.decreaseFontSize).setOnClickListener(v -> decreaseFontSizeButtonClicked());
         findViewById(R.id.openInBrowser).setOnClickListener(v -> openInBrowserClicked());
+        findViewById(R.id.openInBrowser).setOnLongClickListener(v -> openInBrowserClickedLong());
 
 
         ghv = new GestureHintView(this);

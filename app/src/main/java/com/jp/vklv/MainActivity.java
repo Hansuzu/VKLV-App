@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
@@ -36,18 +38,25 @@ public class MainActivity extends ListActivity {
     boolean filterFavourites = false;
     int filterCached = 0;
 
+    ListView sideMenu;
+    boolean showSideMenu = false;
+
     Toast toast = null;
+    void toastMessage(String message) {
+        if (toast!=null) toast.cancel();
+        toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        toast.show();
+    }
 
     public class vRef extends Object {
         int vi;
         @Override
         public String toString() {
-            return VData.vdb.get(vi).toString();
+            return vi>=0?VData.vdb.get(vi).toString():VData.sections.get(-vi-1).title;
         }
-        public boolean favourite() {return VData.vdb.get(vi).favourite;}
-        vRef(int i) {
-            vi = i;
-        }
+        public boolean favourite() {return vi>=0?VData.vdb.get(vi).favourite:false;}
+        public boolean isSection() { return vi<0;}
+        vRef(int i) {vi = i;}
     }
     ArrayList<vRef> listItems = new ArrayList<>();
     public class VDBArrayAdapter extends ArrayAdapter<vRef> {
@@ -65,6 +74,32 @@ public class MainActivity extends ListActivity {
             */
             if (getItem(position).favourite())  v.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.heart,0);
             else v.setCompoundDrawablesWithIntrinsicBounds(0,0,0,0);
+            int ptb = 40;
+            if (getItem(position).isSection()) {
+                int tp = VData.sections.get(-getItem(position).vi-1).tp;
+                if (tp == 0)  {
+                    v.setBackground(getDrawable(R.drawable.list_item_h3_background));
+                    v.setPadding(120, ptb, 50, ptb);
+                    v.setTextColor(0xFF666677);
+                }
+                if (tp == 1)  {
+                    v.setBackground(getDrawable(R.drawable.list_item_h2_background));
+                    v.setPadding(70, ptb, 50, ptb);
+                    v.setTextColor(Color.BLACK);
+                    //v.setTextSize(20);
+                }
+                if (tp == 2)  {
+                    v.setBackground(getDrawable(R.drawable.list_item_h1_background));
+                    v.setPadding(20, ptb, 50, ptb);
+                    v.setTextColor(Color.BLACK);
+                    //v.setTextSize(22);
+                }
+            } else {
+                v.setBackground(getDrawable(R.drawable.list_item_background));
+                v.setPadding(50, ptb, 50, ptb);
+                v.setTextColor(Color.BLACK);
+                //v.setTextSize(16);
+            }
             return v;
         }
     }
@@ -72,9 +107,21 @@ public class MainActivity extends ListActivity {
     VDBArrayAdapter adapter;
 
 
+    ArrayList<vRef> menuItems = new ArrayList<>();
+    VDBArrayAdapter menuAdapter;
 
     void addToList(int i) {
         listItems.add(new vRef(i));
+    }
+    void addSectionToList(int i) {
+        if (VData.sections.get(i).tp>0) return;
+        while (listItems.size()>0 && listItems.get(listItems.size()-1).isSection()) {
+            int j = -listItems.get(listItems.size()-1).vi-1;
+            if (VData.sections.get(i).tp >= VData.sections.get(j).tp) {
+                listItems.remove(listItems.size()-1);
+            } else break;
+        }
+        listItems.add(new vRef(-i-1));
     }
 
     void filter(CharSequence cs) {
@@ -86,7 +133,12 @@ public class MainActivity extends ListActivity {
         if (VData.indexLoaded) VData.vi.search(s);
         int nbm = 0;
         int nbmi = 0;
+        int section_i = 0;
         for (int i=0; i<VData.vdb.size(); ++i) {
+            //if (so.length()==0 && !filterFavourites && filterCached==0)
+                while (section_i<VData.sections.size() && VData.sections.get(section_i).index<=i)
+                    addSectionToList(section_i++);
+
             if (filterFavourites && !VData.vdb.get(i).favourite) continue;
             if (filterCached==1 && !VData.vdb.get(i).cached) continue;
             if (filterCached==2 && VData.vdb.get(i).cached) continue;
@@ -104,6 +156,9 @@ public class MainActivity extends ListActivity {
                 ++nbm;
                 nbmi = i;
             } else if (!VData.indexLoaded) addToList(i);
+        }
+        while (listItems.size()>0 && listItems.get(listItems.size()-1).isSection()) {
+            listItems.remove(listItems.size()-1);
         }
         if (nbm==1 && !filterFavourites && filterCached==0) {
             open(nbmi);
@@ -212,8 +267,16 @@ public class MainActivity extends ListActivity {
         }
 
         filter(s+" ");
-        if (listItems.size()==1) {
-            open(listItems.get(0).vi);
+        if (listItems.size()<5) {
+            int nb = 0;
+            int nbi = 0;
+            for (int i=0; i<listItems.size(); ++i) {
+                if (!listItems.get(i).isSection()) {
+                    ++nb;
+                    nbi = i;
+                }
+            }
+            if (nb==1) open(listItems.get(nbi).vi);
         }
     }
 
@@ -227,13 +290,9 @@ public class MainActivity extends ListActivity {
         filterFavourites = !filterFavourites;
         setFilterFavouritesButtonStyle();
         if (filterFavourites) {
-            if (toast!=null) toast.cancel();
-            toast = Toast.makeText(this, "Näytetään suosikit.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Näytetään suosikit.");
         } else {
-            if (toast!=null) toast.cancel();
-            toast = Toast.makeText(this, "Näytetään kaikki.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Näytetään kaikki.");
         }
         refilter();
         return true;
@@ -256,16 +315,12 @@ public class MainActivity extends ListActivity {
         filterCached += 1;
         if (filterCached>=3) filterCached = 0;
         setFilterCachedButtonStyle();
-        if (toast!=null) toast.cancel();
         if (filterCached == 0) {
-            toast = Toast.makeText(this, "Näytetään kaikki", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Näytetään kaikki.");
         } else if (filterCached == 1){
-            toast = Toast.makeText(this, "Näytetään offline-tilaan tallennetut.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Näytetään offline-tilaan tallennetut.");
         } else {
-            toast = Toast.makeText(this, "Näytetään offline-tilaan tallentamattomat.", Toast.LENGTH_SHORT);
-            toast.show();
+            toastMessage("Näytetään offline-tilaan tallentamattomat.");
         }
         refilter();
         return true;
@@ -280,9 +335,13 @@ public class MainActivity extends ListActivity {
         setContentView(R.layout.main);
 
         listItems.ensureCapacity(VData.vdb.size());
-        for (int i=0; i<VData.vdb.size(); ++i) addToList(i);
+        int section_i = 0;
+        for (int i=0; i<VData.vdb.size(); ++i) {
+            while (section_i<VData.sections.size() && VData.sections.get(section_i).index<=i)
+                addSectionToList(section_i++);
+            addToList(i);
+        }
 
-        //adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listItems);
         adapter = new VDBArrayAdapter(this, listItems);
         setListAdapter(adapter);
 
@@ -295,15 +354,35 @@ public class MainActivity extends ListActivity {
         findViewById(R.id.filterCached).setOnClickListener(v -> filterCachedButtonClicked());
         setFilterCachedButtonStyle();
 
+        for (int i=0; i<VData.sections.size(); ++i) menuItems.add(new vRef(-i-1));
+        menuAdapter = new VDBArrayAdapter(this, menuItems);
+        sideMenu = findViewById(R.id.sideMenu);
+        sideMenu.setAdapter(menuAdapter);
+        sideMenu.setVisibility(View.INVISIBLE);
+        sideMenu.setOnItemClickListener((parent, view, position, id) -> {
+            int vi = VData.sections.get(-menuItems.get(position).vi -1).index;
+            Log.d(TAG, "onClick, vi="+vi);
+            for (int i=0; i<listItems.size(); ++i) {
+                if (listItems.get(i).vi == menuItems.get(position).vi) {
+                    closeSideMenu();
+                    getListView().smoothScrollToPositionFromTop(i, 10, 50);
+                    break;
+                }
+                if (listItems.get(i).vi >= vi) {
+                    closeSideMenu();
+                    getListView().smoothScrollToPositionFromTop(i-1, 10, 50);
+                    break;
+                }
+            }
+        });
+
         ((ListView)findViewById(android.R.id.list)).setOnItemLongClickListener((parent, view, position, id) -> {
+            if (listItems.get(position).isSection()) return false;
             VData.toggleFavourite(this, listItems.get(position).vi);
-            if (toast != null) toast.cancel();
             if (VData.vdb.get(listItems.get(position).vi).favourite) {
-                toast = Toast.makeText(this, "Virsi lisätty suosikkeihin.", Toast.LENGTH_SHORT);
-                toast.show();
+                toastMessage("Virsi lisätty suosikkeihin.");
             } else {
-                toast = Toast.makeText(this, "Virsi poistettu suosikeista.", Toast.LENGTH_SHORT);
-                toast.show();
+                toastMessage("Virsi poistettu suosikeista.");
             }
             adapter.notifyDataSetChanged();
             //*/
@@ -382,9 +461,74 @@ public class MainActivity extends ListActivity {
 
     @Override
     protected void onListItemClick(ListView l, View w, int position, long id) {
+        if (listItems.get(position).isSection()) {
+            toastMessage(VData.sections.get(-listItems.get(position).vi-1).title);
+            return;
+        }
         open(listItems.get(position).vi);
     }
 
+    float motionStartX;
+    float motionStartY;
+
+    void openSideMenu() {
+        sideMenu.animate().translationX(0).setDuration(100);
+        showSideMenu = true;
+    }
+    void closeSideMenu() {
+        sideMenu.animate().translationX(-sideMenu.getWidth()).setDuration(100);
+        showSideMenu = false;
+    }
+
+    boolean touchMovesSideMenu = false;
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent e) {
+        if (e.getAction() == MotionEvent.ACTION_DOWN) {
+            motionStartX = e.getRawX();
+            motionStartY = e.getRawY();
+            touchMovesSideMenu = false;
+            if (showSideMenu && motionStartX>=sideMenu.getWidth()) {
+                closeSideMenu();
+                return true;
+            }
+        } else if (e.getAction() == MotionEvent.ACTION_MOVE || e.getAction() == MotionEvent.ACTION_UP) {
+            float dx = e.getRawX() - motionStartX;
+            float dy = e.getRawY() - motionStartY;
+            float adx = dx>0?dx:-dx;
+            float ady = dy>0?dy:-dy;
+            if (adx>ady || touchMovesSideMenu) {
+                if (e.getAction() == MotionEvent.ACTION_MOVE) {
+                    if (dx > 100 && !showSideMenu) {
+                        touchMovesSideMenu = true;
+                        float x = -sideMenu.getWidth() + 3*(dx - 100);
+                        if (x>0) x = 0;
+                        sideMenu.animate().translationX(x).setDuration(0);
+                        sideMenu.setVisibility(View.VISIBLE);
+                        MotionEvent cancelEvent = MotionEvent.obtain(e);
+                        cancelEvent.setAction(MotionEvent.ACTION_CANCEL);
+                        return super.dispatchTouchEvent(cancelEvent);
+                    } else if (dx < -50 && showSideMenu) {
+                        touchMovesSideMenu = true;
+                        sideMenu.animate().translationX(3*(dx + 50)).setDuration(0);
+                        MotionEvent cancelEvent = MotionEvent.obtain(e);
+                        cancelEvent.setAction(MotionEvent.ACTION_CANCEL);
+                        return super.dispatchTouchEvent(cancelEvent);
+                    }
+                } else if (touchMovesSideMenu) {
+                    if (dx >= 200 && !showSideMenu) {
+                        openSideMenu();
+                    } else if (!showSideMenu) {
+                        closeSideMenu();
+                    } else if (dx <= -150 && showSideMenu) {
+                        closeSideMenu();
+                    } else if (showSideMenu) {
+                        openSideMenu();
+                    }
+                }
+            }
+        }
+        return super.dispatchTouchEvent(e);
+    }
     static int OPEN_SAVED_DATA_REQUEST_CODE = 1;
     static int SAVE_DATA_ALL_REQUEST_CODE = 2;
     static int SAVE_DATA_CACHE_REQUEST_CODE = 3;
@@ -419,8 +563,11 @@ public class MainActivity extends ListActivity {
         if (requestCode == OPEN_SAVED_DATA_REQUEST_CODE) {
             if (resultCode == Activity.RESULT_OK) {
                 if (data != null && data.getData() != null) {
-                    int nbf = VData.loadCacheAndFavourites(this, data.getData());
-                    et.setText("import: imported "+nbf+" files from zip");
+                    new Thread(() -> {
+                        int nbf = VData.loadCacheAndFavourites(this, data.getData());
+                        runOnUiThread(() -> toastMessage("Data tuotu, tuotiin yhteensä " + nbf + " tiedostoa."));
+                    }).start();
+                    toastMessage("Aloitetaan datan tuominen...");
                     refilter();
                 }
             }
@@ -429,8 +576,11 @@ public class MainActivity extends ListActivity {
                 if (data != null && data.getData() != null) {
                     boolean cache = (requestCode == SAVE_DATA_ALL_REQUEST_CODE || requestCode == SAVE_DATA_CACHE_REQUEST_CODE);
                     boolean favourites = (requestCode == SAVE_DATA_ALL_REQUEST_CODE || requestCode == SAVE_DATA_FAVOURITES_REQUEST_CODE);
-                    int nbf = VData.saveCacheAndFavourites(this, data.getData(), cache, favourites);
-                    et.setText("export: created zip file with "+nbf+" files");
+                    new Thread(() -> {
+                        int nbf = VData.saveCacheAndFavourites(this, data.getData(), cache, favourites);
+                        runOnUiThread(() -> toastMessage("Data viety, luotu zip tiedosto, johon pakattiin "+ nbf+" tiedostoa."));
+                    }).start();
+                    toastMessage("Aloitetaan datan vieminen...");
                 }
             }
         }

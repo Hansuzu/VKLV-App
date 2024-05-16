@@ -20,6 +20,15 @@
             android:background="@color/colorPrimary">
 
             <ImageButton
+                android:id="@+id/openInBrowser"
+                style="?android:buttonBarButtonStyle"
+                android:src="@drawable/open_in_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:tint="@color/light_button_color_state_list_active" />
+
+            <ImageButton
                 android:id="@+id/favouriteButton"
                 style="?android:buttonBarButtonStyle"
                 android:src="@drawable/heart"
@@ -35,14 +44,6 @@
                 android:layout_height="wrap_content"
                 android:enabled="false"
                 android:layout_gravity="end" />
-            <ImageButton
-                android:id="@+id/refreshButton"
-                style="?android:buttonBarButtonStyle"
-                android:src="@drawable/refresh"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:tint="@color/light_button_color_state_list_active"/>
             <ImageButton
                 android:id="@+id/decreaseFontSize"
                 style="?android:buttonBarButtonStyle"
@@ -95,17 +96,7 @@
                 android:singleLine="true"
                 android:textColor="@color/light_button_active"
                 android:focusable="false"
-                android:layout_marginEnd="70dp"
                 android:id="@+id/urlbar" />
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="?android:buttonBarButtonStyle"
-                android:layout_marginStart="-70dp"
-                android:layout_marginBottom="-10dp"
-                android:src="@drawable/open_in_new"
-                android:tint="@color/light_button_color_state_list_active"
-                android:id="@+id/openInBrowser" />
         </LinearLayout>
 
         <ProgressBar

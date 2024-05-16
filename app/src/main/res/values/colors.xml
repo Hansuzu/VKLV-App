@@ -4,7 +4,16 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorNeutral">#CCCCCC</color>
-    <color name="button_not_pressed">#555555</color>
+    <color name="colorLight">#F8F8F8</color>
+    <color name="color_list_item">#00F8F8F8</color>
+    <color name="color_list_item_active">#00CCCCCC</color>
+    <color name="color_list_item_h3">#FFEDF3FF</color>
+    <color name="color_list_item_active_h3">#00CCCCCC</color>
+    <color name="color_list_item_h2">#FFD0DFFF</color>
+    <color name="color_list_item_active_h2">#00CCCCCC</color>
+    <color name="color_list_item_h1">#FFAABAFF</color>
+    <color name="color_list_item_active_h1">#00CCCCCC</color>
+    <color name="button_not_pressed">#FF555555</color>
     <color name="button_pressed">#222222</color>
     <color name="light_button_pressed">#555555</color>
     <color name="light_button_active">#ffffff</color>
